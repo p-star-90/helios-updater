@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///F:/mon%20launcher/Helios%20V2/Nebula_Workspace/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "Steam-MC (Minecraft 1.19.2)",
+    "description": "Steam-MC Running Minecraft 1.19.2 (Forge v43.3.5)",
+    "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
+    "address": "88.151.197.36:25931",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": false,
+    "autoconnect": false
+  },
+  "forge": {
+    "version": "43.3.5"
+  },
+  "untrackedFiles": []
+}

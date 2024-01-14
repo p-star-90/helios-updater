@@ -11,7 +11,7 @@
       "id": "Steam-MC-1.19.2",
       "name": "Steam-MC (Minecraft 1.19.2)",
       "description": "Steam-MC Running Minecraft 1.19.2 (Forge v43.3.5)",
-      "icon": null,
+      "icon": "https://p-star-90.github.io/helios-updater/SealCircle.png",
       "version": "1.0.0",
       "address": "88.151.197.36:25931",
       "minecraftVersion": "1.19.2",

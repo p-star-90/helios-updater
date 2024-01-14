@@ -1,0 +1,3393 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "Steam-MC-1.19.2",
+      "name": "Steam-MC (Minecraft 1.19.2)",
+      "description": "Steam-MC Running Minecraft 1.19.2 (Forge v43.3.5)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "88.151.197.36:25931",
+      "minecraftVersion": "1.19.2",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.minecraftforge:lowcodelanguage:1.19.2-43.3.5",
+          "name": "Minecraft Forge (lowcodelanguage)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 7376,
+            "MD5": "fbace7992ff47b8dbc57899a01da4550",
+            "url": "https://p-star-90.github.io/helios-updater/repo/lib/net/minecraftforge/lowcodelanguage/1.19.2-43.3.5/lowcodelanguage-1.19.2-43.3.5.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.19.2-43.3.5",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 15497,
+                "MD5": "5a3a865d12e7b27dc86533f1e5e559b0",
+                "url": "https://p-star-90.github.io/helios-updater/repo/versions/1.19.2-forge-43.3.5/1.19.2-forge-43.3.5.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlcore:1.19.2-43.3.5",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 112532,
+                "MD5": "b87e9adb3716aed14cb0bb651e2eca33",
+                "url": "https://p-star-90.github.io/helios-updater/repo/lib/net/minecraftforge/fmlcore/1.19.2-43.3.5/fmlcore-1.19.2-43.3.5.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.19.2-43.3.5",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 16493,
+                "MD5": "be16b1fc2aa6afc53ae251ed633cc7f1",
+                "url": "https://p-star-90.github.io/helios-updater/repo/lib/net/minecraftforge/javafmllanguage/1.19.2-43.3.5/javafmllanguage-1.19.2-43.3.5.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.19.2-43.3.5",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4985,
+                "MD5": "85115ac9c5e4c280f5d0ef6387f584a1",
+                "url": "https://p-star-90.github.io/helios-updater/repo/lib/net/minecraftforge/mclanguage/1.19.2-43.3.5/mclanguage-1.19.2-43.3.5.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.19.2-43.3.5:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 2644112,
+                "MD5": "a7093b29d1ec7a6f53664a9c59491e37",
+                "url": "https://p-star-90.github.io/helios-updater/repo/lib/net/minecraftforge/forge/1.19.2-43.3.5/forge-1.19.2-43.3.5-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.19.2-43.3.5:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 5417627,
+                "MD5": "e0e2d0442224c2e811ad02f5f32991d9",
+                "url": "https://p-star-90.github.io/helios-updater/repo/lib/net/minecraftforge/forge/1.19.2-43.3.5/forge-1.19.2-43.3.5-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.19.2-20220805.130853:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 17332865,
+                "MD5": "70476cb0e2de11b97d913169c3b9d5a8",
+                "url": "https://p-star-90.github.io/helios-updater/repo/lib/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.19.2-20220805.130853:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 11637719,
+                "MD5": "7ae1ac1daf86584f93ae83dd916d3bdb",
+                "url": "https://p-star-90.github.io/helios-updater/repo/lib/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.19.2-20220805.130853:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 10007043,
+                "MD5": "3014cfce92de3aff55cc50908a510051",
+                "url": "https://p-star-90.github.io/helios-updater/repo/lib/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:2.1.4",
+              "name": "Minecraft Forge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 87315,
+                "MD5": "b49ceccef2c091769f134c47c108cb8b",
+                "url": "https://p-star-90.github.io/helios-updater/repo/lib/cpw/mods/securejarhandler/2.1.4/securejarhandler-2.1.4.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.5",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 121863,
+                "MD5": "29721ee4b5eacf0a34b204c345c8bc69",
+                "url": "https://p-star-90.github.io/helios-updater/repo/lib/org/ow2/asm/asm/9.5/asm-9.5.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.5",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72209,
+                "MD5": "7d1fce986192f71722b19754e4cb9e61",
+                "url": "https://p-star-90.github.io/helios-updater/repo/lib/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.5",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51944,
+                "MD5": "44755681b7d6fa7143afbb438e55c20c",
+                "url": "https://p-star-90.github.io/helios-updater/repo/lib/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.5",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 91076,
+                "MD5": "ad0016249fb68bb9196babefd47b80dc",
+                "url": "https://p-star-90.github.io/helios-updater/repo/lib/org/ow2/asm/asm-util/9.5/asm-util-9.5.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.5",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 33978,
+                "MD5": "4df0adafc78ebba404d4037987d36b61",
+                "url": "https://p-star-90.github.io/helios-updater/repo/lib/org/ow2/asm/asm-analysis/9.5/asm-analysis-9.5.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "https://p-star-90.github.io/helios-updater/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "https://p-star-90.github.io/helios-updater/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:6.0.3",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 52624,
+                "MD5": "7c93693a70962a1c1893e3c058dca5cf",
+                "url": "https://p-star-90.github.io/helios-updater/repo/lib/net/minecraftforge/eventbus/6.0.3/eventbus-6.0.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:6.0.0",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 32714,
+                "MD5": "8c04b8c26ac1d55c281bfeaa71731414",
+                "url": "https://p-star-90.github.io/helios-updater/repo/lib/net/minecraftforge/forgespi/6.0.0/forgespi-6.0.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.0.1",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 24199,
+                "MD5": "8c590051c5d65e098ca7c2e3ddf803a8",
+                "url": "https://p-star-90.github.io/helios-updater/repo/lib/net/minecraftforge/coremods/5.0.1/coremods-5.0.1.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:10.0.8",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 130263,
+                "MD5": "3e171edcc29e762d2ecafffabb9e9341",
+                "url": "https://p-star-90.github.io/helios-updater/repo/lib/cpw/mods/modlauncher/10.0.8/modlauncher-10.0.8.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://p-star-90.github.io/helios-updater/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "https://p-star-90.github.io/helios-updater/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "https://p-star-90.github.io/helios-updater/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.8.5",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 58077,
+                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                "url": "https://p-star-90.github.io/helios-updater/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.8.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 15425,
+                "MD5": "ee4596e1413cc1a5e080c971d6064753",
+                "url": "https://p-star-90.github.io/helios-updater/repo/lib/net/jodah/typetools/0.8.3/typetools-0.8.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://p-star-90.github.io/helios-updater/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "https://p-star-90.github.io/helios-updater/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "https://p-star-90.github.io/helios-updater/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "https://p-star-90.github.io/helios-updater/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.3",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167288,
+                "MD5": "91e98c20afa1090c344229ce28b4c53f",
+                "url": "https://p-star-90.github.io/helios-updater/repo/lib/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.3.16",
+              "name": "Minecraft Forge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17374,
+                "MD5": "5e859d6320cb16055febaedacb8b9806",
+                "url": "https://p-star-90.github.io/helios-updater/repo/lib/net/minecraftforge/JarJarSelector/0.3.16/JarJarSelector-0.3.16.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.3.16",
+              "name": "Minecraft Forge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15242,
+                "MD5": "332b118877d33c715f3ee67b75bffdd7",
+                "url": "https://p-star-90.github.io/helios-updater/repo/lib/net/minecraftforge/JarJarMetadata/0.3.16/JarJarMetadata-0.3.16.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.1.2",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 8284,
+                "MD5": "48f5255aa337344c467c0150d347813d",
+                "url": "https://p-star-90.github.io/helios-updater/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.16",
+              "name": "Minecraft Forge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 32052,
+                "MD5": "f4efd51f520cb4c98483c040bdc58aab",
+                "url": "https://p-star-90.github.io/helios-updater/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.16/JarJarFileSystems-0.3.16.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.19.2-43.3.5",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 261212,
+                "MD5": "4114742e568dd6efad76393a5d116ce0",
+                "url": "https://p-star-90.github.io/helios-updater/repo/lib/net/minecraftforge/fmlloader/1.19.2-43.3.5/fmlloader-1.19.2-43.3.5.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "dev.tr7zw.skinlayers:skinlayers3d:1.5.2@jar",
+          "name": "3dSkinLayers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 450968,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/3dskinlayers-forge-1.5.2-mc1.19.1.jar",
+            "MD5": "94ae6b73fdcef490cf1b6240921cf745"
+          }
+        },
+        {
+          "id": "earth.terrarium:ad_astra:1.12.7@jar",
+          "name": "Ad Astra",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10492498,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/ad_astra-forge-1.19.2-1.12.7.jar",
+            "MD5": "ea1264083a4d91a8dba87e057c952d4f"
+          }
+        },
+        {
+          "id": "com.mindfaer:adtetra:1.0.1@jar",
+          "name": "Ad Tetra",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8425,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/adtetra-1.0.1.jar",
+            "MD5": "2320fabae57ad4d6e50553219f5145a7"
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:advancementplaques:1.4.7@jar",
+          "name": "Advancement Plaques",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 206511,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/AdvancementPlaques-1.19.2-1.4.7.jar",
+            "MD5": "b167331abe438731f132eb339ad03682"
+          }
+        },
+        {
+          "id": "teamrazor.aeroblender:aeroblender:1.19.2-1.0.1@jar",
+          "name": "AeroBlender",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 20484,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/aeroblender-r1.19.2-1.0.jar",
+            "MD5": "e7cfd1c205533319d107eb689f006017"
+          }
+        },
+        {
+          "id": "com.aetherteam.enhanced_extinguishing:aether_enhanced_extinguishing:1.19.2-1.0.0-forge@jar",
+          "name": "Enhanced Extinguishing",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 113313,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/aether_enhanced_extinguishing-1.19.2-1.0.0-forge.jar",
+            "MD5": "3421e24091f6981cdd41f322edb285b0"
+          }
+        },
+        {
+          "id": "com.aetherteam:aether:1.19.2-1.0.0-beta.1.3-forge@jar",
+          "name": "The Aether",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 21927635,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/aether-1.19.2-1.0.0-beta.1.3-forge.jar",
+            "MD5": "4618e16232ef2b84fcb803c135dd7584"
+          }
+        },
+        {
+          "id": "net.zepalesque.redux:aether_redux:1.19.2@jar",
+          "name": "The Aether: Redux",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 27581708,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/aether-redux-1.3.3-1.19.2-forge.jar",
+            "MD5": "d38739490cac73c42dc3de6422b04c04"
+          }
+        },
+        {
+          "id": "com.github.alexthe666:alexsmobs:1.21.1@jar",
+          "name": "Alex's Mobs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 25655463,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/alexsmobs-1.21.1.jar",
+            "MD5": "0ba48ab00c965c7acaa061d0844d9f17"
+          }
+        },
+        {
+          "id": "com.infamous:all_bark_all_bite:1.19.2-0.9.3@jar",
+          "name": "All Bark, All Bite",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 693547,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/all_bark_all_bite-1.19.2-0.9.3.jar",
+            "MD5": "46668795cceb5b8e4daa779efcef7687"
+          }
+        },
+        {
+          "id": "alternate.current:alternate_current:1.7.0@jar",
+          "name": "Alternate Current",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 36844,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/alternate-current-mc1.19-1.7.0.jar",
+            "MD5": "cf3d4ccec163b92297c34c9296fa3a09"
+          }
+        },
+        {
+          "id": "io.github.foundationgames:animatica:1.19.2-0.1.2@jar",
+          "name": "AnimaticaReforged",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 68535,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/AnimaticaReforged-1.19.2-0.1.2.jar",
+            "MD5": "6862fcc156e4469e91ef301ea3dc0d5b"
+          }
+        },
+        {
+          "id": "com.obscuria:aquamirae:6.API15@jar",
+          "name": "Aquamirae",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 17322001,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/aquamirae-6.API15.jar",
+            "MD5": "09675c402ee56c2db06f97f71d46698e"
+          }
+        },
+        {
+          "id": "dev.architectury:architectury:6.5.85@jar",
+          "name": "Architectury",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 546188,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/architectury-6.5.85-forge.jar",
+            "MD5": "8c8a7412575f897356823b928a5b8ca7"
+          }
+        },
+        {
+          "id": "baguchan.armored_redstone:armored_redstone:1.19.2-0.2.0@jar",
+          "name": "Armored Redstone",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 138845,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/armored_redstone-1.19.2-0.2.0.jar",
+            "MD5": "f2940fa6f8c4f19dbde870926822f128"
+          }
+        },
+        {
+          "id": "net.acetheeldritchking:art_of_forging:1.6.7-1.19.2@jar",
+          "name": "Art of Forging",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 198837,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/art_of_forging-1.6.7-1.19.2.jar",
+            "MD5": "b44948b8951fc943a00cdc92ad1eab92"
+          }
+        },
+        {
+          "id": "com.teamabnormals.atmospheric.core:atmospheric:5.0.0@jar",
+          "name": "Atmospheric",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1767276,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/atmospheric-1.19.2-5.0.0.jar",
+            "MD5": "c93eeeef993e3b0654e89cdacf50518b"
+          }
+        },
+        {
+          "id": "net.darkhax:attributefix:17.2.7@jar",
+          "name": "AttributeFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 19425,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/AttributeFix-Forge-1.19.2-17.2.7.jar",
+            "MD5": "edd99cb3bf9711efd42800f949bfcc47"
+          }
+        },
+        {
+          "id": "daripher.autoleveling:autoleveling:1.19@jar",
+          "name": "Auto Leveling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 68698,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/AutoLeveling-1.19.2-1.19.jar",
+            "MD5": "21dba3ae0a6b2e3bde967b76d0729770"
+          }
+        },
+        {
+          "id": "vazkii.arl:autoreglib:1.8.2-55@jar",
+          "name": "AutoRegLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 45741,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/AutoRegLib-1.8.2-55.jar",
+            "MD5": "8d0cfc46ea0c7334ff511eff2bb3e9ce"
+          }
+        },
+        {
+          "id": "net.darkhax:badmobs:16.1.3@jar",
+          "name": "BadMobs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 9680,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/BadMobs-1.19.2-16.1.3.jar",
+            "MD5": "32a2289834127490a0fbd2f4f7dc9a49"
+          }
+        },
+        {
+          "id": "net.blay09.mods:balm:4.6.0@jar",
+          "name": "Balm",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 314084,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/balm-forge-1.19.2-4.6.0.jar",
+            "MD5": "009bdfde01e742c98cfe71babbd58fce"
+          }
+        },
+        {
+          "id": "fuzs.barteringstation:barteringstation:4.0.3@jar",
+          "name": "Bartering Station",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 120963,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/BarteringStation-v4.0.3-1.19.2-Forge.jar",
+            "MD5": "d6cd2a8a5098f80f0de629ac54b69edd"
+          }
+        },
+        {
+          "id": "systems.alexander:bellsandwhistles:0.4.4@jar",
+          "name": "Create: Bells & Whistles",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 193472,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/bellsandwhistles-v0.4.4-1.19.2.jar",
+            "MD5": "18f2428dd6969f82662ba73df33f39bd"
+          }
+        },
+        {
+          "id": "betteradvancements:betteradvancements:0.3.0.148@jar",
+          "name": "Better Advancements",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 73255,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/BetterAdvancements-1.19.2-0.3.0.148.jar",
+            "MD5": "ca838d5324c38503df6250924cfdb380"
+          }
+        },
+        {
+          "id": "com.betterchunkloading:betterchunkloading:1.19.2-2.2@jar",
+          "name": "Betterchunkloading mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 26237,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/betterchunkloading-1.19.2-2.2.jar",
+            "MD5": "07d71e94aef397432195c4967f62a25f"
+          }
+        },
+        {
+          "id": "dev.wuffs:bcc:1.0.10-build.50+mc1.19.2@jar",
+          "name": "Better Compatibility Checker",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15988,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/BetterCompatibilityChecker-1.0.10-build.50+mc1.19.2.jar",
+            "MD5": "f43f2349c5b9bb4080bc2b3f61c82bf0"
+          }
+        },
+        {
+          "id": "com.betterfpsdist:betterfpsdist:1.19.2-4.0@jar",
+          "name": "Betterfpsdist mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 17054,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/betterfpsdist-1.19.2-4.0.jar",
+            "MD5": "9cf9c12ca094fef7ba498fdc999ebd40"
+          }
+        },
+        {
+          "id": "fuzs.bettermodsbutton:bettermodsbutton:4.2.4@jar",
+          "name": "Better Mods Button",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 57431,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/BetterModsButton-v4.2.4-1.19.2-Forge.jar",
+            "MD5": "8f95b71a11c031e29c8bfcddbecb0dba"
+          }
+        },
+        {
+          "id": "io.github.thecsdev:betterstats:2.2.2+1.19.2@jar",
+          "name": "Better Statistics Screen",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 222822,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/betterstats-2.2.2+1.19.2.jar",
+            "MD5": "ba31dfcc3facdcea5da54d4bb954e966"
+          }
+        },
+        {
+          "id": "com.bisecthosting.mods:bhmenu:2.4.1@jar",
+          "name": "BHMenu",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 165697,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/BHMenu-Forge-1.19.2-2.4.1.jar",
+            "MD5": "dc2ca3c1760df39f358e91f3394aa00a"
+          }
+        },
+        {
+          "id": "com.biomemusic:biomemusic:1.19.2-2.2@jar",
+          "name": "Biomemusic mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 19555,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/biomemusic-1.19.2-2.2.jar",
+            "MD5": "ce7675984778de8ff08439c579a91877"
+          }
+        },
+        {
+          "id": "biomesoplenty.core:biomesoplenty:17.1.2.544@jar",
+          "name": "Biomes O' Plenty",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 21401992,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/BiomesOPlenty-1.19.2-17.1.2.544.jar",
+            "MD5": "1c0301cc21c7d9a3b298da66826c7cac"
+          }
+        },
+        {
+          "id": "com.legacy:blue_skies:1.3.20@jar",
+          "name": "Blue Skies",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 82865712,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/blue_skies-1.19.2-1.3.20.jar",
+            "MD5": "f93a570111eeac3cbddaa87574ec36c7"
+          }
+        },
+        {
+          "id": "com.teamabnormals.blueprint.core:blueprint:6.2.0@jar",
+          "name": "Blueprint",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 992248,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/blueprint-1.19.2-6.2.0.jar",
+            "MD5": "9c94bf24bedce1f6ad01f083199617a2"
+          }
+        },
+        {
+          "id": "elocindev.boatbreakfix:boatbreakfix:1.0.2@jar",
+          "name": "Boat Break Fix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6866,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/BoatBreakFix-Universal-1.0.2.jar",
+            "MD5": "8fb1a114d55f3981ec247683567b8453"
+          }
+        },
+        {
+          "id": "com.teampotato:bocchium:1.19.2-0.0.2@jar",
+          "name": "Bocchium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10212,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/bocchium-1.19.2-0.0.2.jar",
+            "MD5": "b02f5241d9ed490636274c43d0529f53"
+          }
+        },
+        {
+          "id": "net.darkhax:bookshelf:16.3.20@jar",
+          "name": "Bookshelf",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 320523,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/Bookshelf-Forge-1.19.2-16.3.20.jar",
+            "MD5": "4896952e08b599f8e62e3ce8e98aeab3"
+          }
+        },
+        {
+          "id": "earth.terrarium:botarium:1.8.2@jar",
+          "name": "Botarium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 110494,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/botarium-forge-1.19.2-1.8.2.jar",
+            "MD5": "1fe74bba345c2507f858da4a8379e35f"
+          }
+        },
+        {
+          "id": "umpaz.brewinandchewin:brewinandchewin:1.19-2.0@jar",
+          "name": "Brewin' and Chewin'",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 366890,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/BrewinAndChewin-1.19-2.0.jar",
+            "MD5": "fb576be9f7e52a3bb68c042b12341613"
+          }
+        },
+        {
+          "id": "com.izofar:bygonenether:1.3.2@jar",
+          "name": "Bygone Nether",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7675614,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/bygonenether-1.3.2-1.19.2.jar",
+            "MD5": "6cbd76a839df0a2ec0828ae8f74f69a7"
+          }
+        },
+        {
+          "id": "top.theillusivec4:caelus:1.19.2-3.0.0.6@jar",
+          "name": "Caelus API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 37254,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/caelus-forge-1.19.2-3.0.0.6.jar",
+            "MD5": "918f8c78474edc74a7b489b803124492"
+          }
+        },
+        {
+          "id": "tschipp.carryon:carryon:2.1.1.21@jar",
+          "name": "Carry On",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 440293,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/carryon-forge-1.19.2-2.1.1.21.jar",
+            "MD5": "963943bc7f7851b1b310a26c9ecbde88"
+          }
+        },
+        {
+          "id": "dan200.computercraft:computercraft:1.101.3@jar",
+          "name": "CC: Tweaked",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2267523,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/cc-tweaked-1.19.2-1.101.3.jar",
+            "MD5": "33d41188baa8e8641c60678080501e22"
+          }
+        },
+        {
+          "id": "cc.tweaked_programs:cccbridge:1.5.1-forge@jar",
+          "name": "CC:C Bridge",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 269115,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/cccbridge-mc1.19.2-forge-v1.5.1.jar",
+            "MD5": "a9f3c7a902c8464ca96e794b28b21ab7"
+          }
+        },
+        {
+          "id": "io.github.mortuusars:chalk:1.6.3@jar",
+          "name": "Chalk",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 318512,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/chalk-1.19.2-1.6.3.jar",
+            "MD5": "79c11bdcbac4fd232a1c77495384b7ac"
+          }
+        },
+        {
+          "id": "com.illusivesoulworks:charmofundying:6.2.1+1.19.2@jar",
+          "name": "Charm of Undying",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 49719,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/charmofundying-forge-6.2.1+1.19.2.jar",
+            "MD5": "63d806f8fb0275e9164ab1ebea6461b6"
+          }
+        },
+        {
+          "id": "net.redstonegames:chefsdelight:1.0.2-forge-1.19.2@jar",
+          "name": "Chefs Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 84789,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/chefs-delight-1.0.2-forge-1.19.2.jar",
+            "MD5": "b9bea8ec60a3fed3ceebc4db5f8048b8"
+          }
+        },
+        {
+          "id": "earth.terrarium:chipped:2.1.5@jar",
+          "name": "Chipped",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 17313751,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/chipped-forge-1.19.2-2.1.5.jar",
+            "MD5": "4152fde1d156b2c05c42ad21ec39a2a3"
+          }
+        },
+        {
+          "id": "com.chunksending:chunksending:1.19.2-2.7@jar",
+          "name": "Chunksending mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 11374,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/chunksending-1.19.2-2.7.jar",
+            "MD5": "b91a4ef1efcb26c5a5579c4e0567fb3e"
+          }
+        },
+        {
+          "id": "com.github.alexthe666:citadel:2.1.4@jar",
+          "name": "Citadel",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3063232,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/citadel-2.1.4-1.19.jar",
+            "MD5": "5271cd9beb2675bd9fd76ed14a66e763"
+          }
+        },
+        {
+          "id": "com.teamabnormals.clayworks.core:clayworks:2.1.0@jar",
+          "name": "Clayworks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1217886,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/clayworks-1.19.2-2.1.0.jar",
+            "MD5": "04a19c7e189d5ad41ce37a28c56fcbc0"
+          }
+        },
+        {
+          "id": "me.shedaniel.clothconfig:cloth_config:8.3.103@jar",
+          "name": "Cloth Config v8 API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1163374,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/cloth-config-8.3.103-forge.jar",
+            "MD5": "a9f80e65f7beb19b6a252ac1271c22a8"
+          }
+        },
+        {
+          "id": "com.blamejared:clumps:9.0.0+14@jar",
+          "name": "Clumps",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 19083,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/Clumps-forge-1.19.2-9.0.0+14.jar",
+            "MD5": "bdf6d74aadb9d5e5b0167a40ad0ad90d"
+          }
+        },
+        {
+          "id": "com.momosoftworks.coldsweat:cold_sweat:2.2@jar",
+          "name": "Cold Sweat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8270797,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/ColdSweat-2.2.jar",
+            "MD5": "7c2ebf6c587ed95de2c8b19bf1294d13"
+          }
+        },
+        {
+          "id": "com.natamus:collective:7.7@jar",
+          "name": "Collective",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 528964,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/collective-1.19.2-7.7.jar",
+            "MD5": "93f298cbd0583b25e285d16266483b52"
+          }
+        },
+        {
+          "id": "com.seleneandmana.compatoplenty.core:compatoplenty:1.19.2-2.0.1@jar",
+          "name": "Compat O' Plenty",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1889566,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/Compat-O-Plenty-1.19.2-2.0.1.jar",
+            "MD5": "3ef2f4a71aac0c7c57d0e171601c2abc"
+          }
+        },
+        {
+          "id": "generated.forgemod:configureddefaults:v8.0.1-1.20.1-Forge@jar",
+          "name": "ConfiguredDefaults",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 40945,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/ConfiguredDefaults-v8.0.1-1.20.1-Forge.jar",
+            "MD5": "1b79261182b1d6f7d03185d287fdd48e"
+          }
+        },
+        {
+          "id": "me.pepperbell.continuity.client:connectedness:2.0.1a@jar",
+          "name": "Connectedness",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1050351,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/connectedness-2.0.1a.jar",
+            "MD5": "c951f11629dc83b6d8b681d9a3a00c1a"
+          }
+        },
+        {
+          "id": "com.connectivity:connectivity:1.19.2-4.6@jar",
+          "name": "Connectivity Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 62868,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/connectivity-1.19.2-4.6.jar",
+            "MD5": "00fae6fe01d096c69ddf33173fde520b"
+          }
+        },
+        {
+          "id": "com.blamejared:controlling:10.0+7@jar",
+          "name": "Controlling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 117659,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/Controlling-forge-1.19.2-10.0+7.jar",
+            "MD5": "a1806659c98d659f6daad51a6673671a"
+          }
+        },
+        {
+          "id": "lain.mods.cos.init:cosmeticarmorreworked:1.19.2-v1a@jar",
+          "name": "CosmeticArmorReworked",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 87648,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/CosmeticArmorReworked-1.19.2-v1a.jar",
+            "MD5": "04e67c8f93e7121efb0b34d96db6370c"
+          }
+        },
+        {
+          "id": "net.celsiusqc:cp_tweaks:1.0.7-1.19.2@jar",
+          "name": "Create Planetary Tweaks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 156970,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/cp_tweaks-1.0.7-1.19.2.jar",
+            "MD5": "3f550d766808795916c38cb284468263"
+          }
+        },
+        {
+          "id": "net.celsiusqc:create_blue_skies_compat:1.0.1-1.19@jar",
+          "name": "Create Blue Skies Compat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 39389,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/create_blue_skies_compat-1.0.1-1.19.jar",
+            "MD5": "ec67bc2a76dae0f9852ba4f3b4eb8f9f"
+          }
+        },
+        {
+          "id": "plus.dragons.createcentralkitchen:create_central_kitchen:1.3.9.e@jar",
+          "name": "Create: Central Kitchen",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1165324,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/create_central_kitchen-1.19.2-for-create-0.5.1.f-1.3.9.e.jar",
+            "MD5": "c7fe8fc4b29a84b799cdfc8011624550"
+          }
+        },
+        {
+          "id": "net.mcreator.createcompressed:create_compressed:1.0.1@jar",
+          "name": "Create Compressed",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 79710,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/create_compressed_1.0.1_forge_1.19.2.jar",
+            "MD5": "d772791b7374ecfe71ce58459565ed78"
+          }
+        },
+        {
+          "id": "com.cyvack:create_crystal_clear:1.19.2-0.2.a@jar",
+          "name": "Create: Crystal Clear",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 270781,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/create_crystal_clear-0.2.1-1.19.2.jar",
+            "MD5": "9c331d3e5d03e1c99f3ba6dc7e52113c"
+          }
+        },
+        {
+          "id": "plus.dragons.createenchantmentindustry:create_enchantment_industry:1.2.7.d@jar",
+          "name": "Create Enchantment Industry",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 491036,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/create_enchantment_industry-1.19.2-for-create-0.5.1.f-1.2.7.d.jar",
+            "MD5": "898a9da71915927f0c4fe7b6a49c247e"
+          }
+        },
+        {
+          "id": "com.possible_triangle:create_jetpack:3.2.3@jar",
+          "name": "Create Jetpack",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 206975,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/create_jetpack-forge-3.2.3.jar",
+            "MD5": "c02c95c8b554db911f4fe1a12be52c0f"
+          }
+        },
+        {
+          "id": "net.mcreator.createatam:create_things_and_misc:1.0.0@jar",
+          "name": "Create: things and misc",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1017182,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/create_misc_and_things_%201.19.2_4.0A.jar",
+            "MD5": "4ea3ef1ebff443b6ff0c17b78a9d7674"
+          }
+        },
+        {
+          "id": "net.mcreator.createcrusheverything:create_crush_everything:1.0.2@jar",
+          "name": "Create Recycling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 87967,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/create_recycle_1.0.2_forge_1.19.2.jar",
+            "MD5": "c2531867e494ebc0f9e282167389ba49"
+          }
+        },
+        {
+          "id": "com.simibubi:create:0.5.1.f@jar",
+          "name": "Create",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14913092,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/create-1.19.2-0.5.1.f.jar",
+            "MD5": "668b745f59e48c87ee4210ba8edb3993"
+          }
+        },
+        {
+          "id": "org.antarcticgardens.newage:create_new_age:1.0.1@jar",
+          "name": "Create: New Age",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1225273,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/create-new-age-forge-1.19.2-1.0.1.jar",
+            "MD5": "ccf4be8fc6f5aff774d1c82f96c0add5"
+          }
+        },
+        {
+          "id": "com.mrh0:createaddition:1.19.2-1.1.1@jar",
+          "name": "Create Crafts & Additions",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1125662,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/createaddition-1.19.2-1.1.1.jar",
+            "MD5": "1b27d9bd01a95af1dbc164af5c40b8c3"
+          }
+        },
+        {
+          "id": "com.silopante:createair:1.0@jar",
+          "name": "Create Air",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 56707,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/createair-1.0-1.19.2.jar",
+            "MD5": "8fb122d4b72cc1b4a75cc184d033aa2b"
+          }
+        },
+        {
+          "id": "net.ssm227:createastracompat:1.0.3-1.19.2@jar",
+          "name": "Create Ad Astra Compat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 25772,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/createastracompat-1.0.3-1.19.2.jar",
+            "MD5": "a6f302a94884492d89d143fc9f803b53"
+          }
+        },
+        {
+          "id": "team.chisel:ctm:1.19.2-1.1.6+8@jar",
+          "name": "ConnectedTexturesMod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 194727,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/CTM-1.19.2-1.1.6+8.jar",
+            "MD5": "ab8156e2a8510422a1f740f214a34058"
+          }
+        },
+        {
+          "id": "com.choicetheorem:ctov:3.2.6c@jar",
+          "name": "ChoiceTheorem's Overhauled Village",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4637536,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/ctov-3.2.6c.jar",
+            "MD5": "9f90547530b1fd88253936e6c7753d39"
+          }
+        },
+        {
+          "id": "dev.isxander:culllessleaves:1.0.5@jar",
+          "name": "Cull Less Leaves Reforged",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 18831,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/CullLessLeaves-Reforged-1.0.5.jar",
+            "MD5": "21faa446346837e0e007ac0d0e1b6042"
+          }
+        },
+        {
+          "id": "com.ncpbails:culturaldelights:0.15.4@jar",
+          "name": "Cultural Delights",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 229370,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/culturaldelights-1.19.2-0.15.4.jar",
+            "MD5": "d7a8f87ddfffdb69ff7c8066e5303a98"
+          }
+        },
+        {
+          "id": "com.cupboard:cupboard:1.19.2-2.1@jar",
+          "name": "Cupboard utilities",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 21504,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/cupboard-1.19.2-2.1.jar",
+            "MD5": "9c4dbcac34177693a915034d2a486830"
+          }
+        },
+        {
+          "id": "top.theillusivec4:curios:1.19.2-5.1.4.2@jar",
+          "name": "Curios API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 278407,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/curios-forge-1.19.2-5.1.4.2.jar",
+            "MD5": "1b55ed425e5b62ec8875954e9ca1d6d5"
+          }
+        },
+        {
+          "id": "net.brnbrd:delightful:3.4.1@jar",
+          "name": "Delightful",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 952298,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/Delightful-1.19.2-3.4.1.jar",
+            "MD5": "2a436706e62eb85bd94d19b262712b93"
+          }
+        },
+        {
+          "id": "com.mangomilk:design_decor:0.1.0@jar",
+          "name": "Create: Design n' Decor",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 422395,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/design_decor-0.1a-1.19.2.jar",
+            "MD5": "efbff189da90daeeb8b27b62bd9231c5"
+          }
+        },
+        {
+          "id": "com.teampotato:despawn_tweaker:1.19.2-0.0.5@jar",
+          "name": "DespawnTweaker",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10246,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/despawn_tweaker-1.19.2-0.0.5.jar",
+            "MD5": "e100647d2f619abeeec936ec57d56dea"
+          }
+        },
+        {
+          "id": "de.cas_ual_ty:deuf:1.19.2-1.3@jar",
+          "name": "DEUF - Duplicate Entity UUID Fix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 13572,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/deuf-1.19.2-1.3.jar",
+            "MD5": "8c115235b12d272c6f3b36d056dff997"
+          }
+        },
+        {
+          "id": "com.dolthhaven.doltcompat:dolt_compat:1.1.2@jar",
+          "name": "Dolt Compat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 78211,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/dolt_compat-1.19.2-1.1.2.jar",
+            "MD5": "4234ef9bd3b1355cf4d7e564f2039653"
+          }
+        },
+        {
+          "id": "com.dragonfight:dragonfight:1.19.2-4.1@jar",
+          "name": "Dragonfight mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 33024,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/dragonfight-1.19.2-4.1.jar",
+            "MD5": "e3bd81d94749fe8cb34cd9648e1f4be2"
+          }
+        },
+        {
+          "id": "de.keksuccino:drippyloadingscreen:2.2.2@jar",
+          "name": "Drippy Loading Screen",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 116564,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/drippyloadingscreen_forge_2.2.2_MC_1.19.1-1.19.2.jar",
+            "MD5": "d624673f1063377fd533577617fb992e"
+          }
+        },
+        {
+          "id": "com.barion:dungeons_enhanced:4.1@jar",
+          "name": "Dungeons Enhanced",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1172536,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/dungeons_enhanced-1.19.2-4.1.jar",
+            "MD5": "7c4244f2696c2f8774d2e86b317c67d2"
+          }
+        },
+        {
+          "id": "com.sudolev:dynamicvillage:0.2.1@jar",
+          "name": "Create: Dynamic village",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 127518,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/dynamicvillage-0.2.1.jar",
+            "MD5": "d0809939a87622603125da316fcba74d"
+          }
+        },
+        {
+          "id": "fuzs.easyanvils:easyanvils:4.0.11@jar",
+          "name": "Easy Anvils",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 156918,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/EasyAnvils-v4.0.11-1.19.2-Forge.jar",
+            "MD5": "7b3853d4e396deb63600c97788a86046"
+          }
+        },
+        {
+          "id": "fuzs.easymagic:easymagic:4.3.3@jar",
+          "name": "Easy Magic",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 102571,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/EasyMagic-v4.3.3-1.19.2-Forge.jar",
+            "MD5": "910be6dc248971ebf50c0f15dd740334"
+          }
+        },
+        {
+          "id": "com.illusivesoulworks:elytraslot:6.1.1+1.19.2@jar",
+          "name": "Elytra Slot",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 56570,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/elytraslot-forge-6.1.1+1.19.2.jar",
+            "MD5": "cd436758cf138f236154846f8612992f"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.sodium.client:embeddium:0.2.9+mc1.19.2@jar",
+          "name": "Embeddium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1520002,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/embeddium-0.2.9+mc1.19.2.jar",
+            "MD5": "3fc5333bfe7819e380edf430225a81a1"
+          }
+        },
+        {
+          "id": "net.darkhax:enchdesc:13.0.14@jar",
+          "name": "EnchantmentDescriptions",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 63128,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/EnchantmentDescriptions-Forge-1.19.2-13.0.14.jar",
+            "MD5": "dc341c92952f6b6c790b6e1c61a1e15c"
+          }
+        },
+        {
+          "id": "net.mcreator:phantasm:1.2.10.5@jar",
+          "name": "End's Phantasm",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 969929,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/End's%20Phantasm%20-%20BETAv1.2.10.5%20-%201.19.2.jar",
+            "MD5": "2e2ce52e0245ebf4d0ef09ee1c95f490"
+          }
+        },
+        {
+          "id": "com.axedgaming:endersdelight:1.19-1.2.1@jar",
+          "name": "Ender's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 117518,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/endersdelight-1.19-1.2.1.jar",
+            "MD5": "17974f25b59c57bc3b7dc43f77d0cde9"
+          }
+        },
+        {
+          "id": "net.mcreator:endlessbiomes:1.0.0@jar",
+          "name": "EndlessBiomes",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2820092,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/EndlessBiomes%201.4s%20-%201.19.2%20(Server-friendly).jar",
+            "MD5": "3936b790c610dfd30cfb45ff2695748f"
+          }
+        },
+        {
+          "id": "com.teamremastered:endrem:5.2.1-R-1.19.2@jar",
+          "name": "End Remastered",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 877722,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/endrem_forge-5.2.1-R-1.19.X.jar",
+            "MD5": "b9b97525cd9208ba34ad8f4d6a79ba1b"
+          }
+        },
+        {
+          "id": "net.mcreator:enemyexpansion:2.0.0@jar",
+          "name": "Enemy Expansion",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 944025,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/EnemyExpansion-1.19.2-2.0.0.jar",
+            "MD5": "84009ed42a47d1cd1a63677af3d2165f"
+          }
+        },
+        {
+          "id": "net.mcreator:tmted:1.0.2@jar",
+          "name": "Engineers Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 119469,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/Engineers%20Delight%201.19.2%20B.1.2.jar",
+            "MD5": "90d050cee680165539cf1c6e555421c2"
+          }
+        },
+        {
+          "id": "wile.engineersdecor:engineersdecor:1.3.29@jar",
+          "name": "Engineer's Decor",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1628196,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/engineersdecor-1.19.2-forge-1.3.29.jar",
+            "MD5": "095c71bfc0b592966e52f1495a0ce47c"
+          }
+        },
+        {
+          "id": "com.aizistral:enigmaticlegacy:2.26.5@jar",
+          "name": "Enigmatic Legacy",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6951700,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/EnigmaticLegacy-2.26.5.jar",
+            "MD5": "d48409f611c7000a80477eaa0467fcb2"
+          }
+        },
+        {
+          "id": "net.mcreator:enlightened_end:5.0.12@jar",
+          "name": "Enlightend",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 16785660,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/enlightend-5.0.12-1.19.2.jar",
+            "MD5": "ad24f24447681dc6bd42aeba9bf74697"
+          }
+        },
+        {
+          "id": "corgitaco.entitycollisionfpsfix:entitycollisionfpsfix:2.0.0.0@jar",
+          "name": "Entity Collision FPS Fix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10173,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/Entity_Collision_FPS_Fix-forge-1.19-2.0.0.0.jar",
+            "MD5": "f7adf3c46c9af07674b09a55c9e03288"
+          }
+        },
+        {
+          "id": "traben.entity_model_features:entity_model_features:0.2.13@jar",
+          "name": "Entity Model Features",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 479530,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/entity_model_features_forge_1.19.2-0.2.13.jar",
+            "MD5": "70b750f2d1e39752e1cf719e97cfa37b"
+          }
+        },
+        {
+          "id": "traben.entity_texture_features:entity_texture_features:4.6.1@jar",
+          "name": "Entity Texture Features",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 522121,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/entity_texture_features_forge_1.19.2-4.6.1.jar",
+            "MD5": "3c4e91d02c9cf4baaac51e4b413cd879"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.6.1@jar",
+          "name": "EntityCulling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 60289,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/entityculling-forge-1.6.1-mc1.19.2.jar",
+            "MD5": "094f1d0f3aad06ee4c5bb0c3f8a208d5"
+          }
+        },
+        {
+          "id": "com.teamabnormals.environmental.core:environmental:3.0.0@jar",
+          "name": "Environmental",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6430870,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/environmental-1.19.2-3.0.0.jar",
+            "MD5": "b53fb6e2cbd9528c5a14c9f0a1f82743"
+          }
+        },
+        {
+          "id": "com.epherical:epherolib:1.0.0@jar",
+          "name": "EpheroLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 748123,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/EpheroLib-1.19.2-FORGE-1.0.0.jar",
+            "MD5": "fc57280f7babb786720fec51e1cbf843"
+          }
+        },
+        {
+          "id": "de.isuewo:euphoria_patcher:0.1.1-forge@jar",
+          "name": "Euphoria Patcher",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 244118,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/EuphoriaPatcher-0.1.1-forge.jar",
+            "MD5": "195a8610180f3383eaec60c4c66c3395"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar.every_compat:everycomp:1.19.2-2.5.14@jar",
+          "name": "Every Compat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2223077,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/everycomp-1.19.2-2.5.14.jar",
+            "MD5": "71e5b618228e2108dec3e0f6216f0c2b"
+          }
+        },
+        {
+          "id": "com.explorify:explorify:1.19-1.3.0@jar",
+          "name": "Explorify",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 158066,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/explorify-forge-1.19-1.3.0.jar",
+            "MD5": "ff394caeab44563229c4e75156ec5706"
+          }
+        },
+        {
+          "id": "com.rabbitminers:extendedgears:2.1.0-1.19.2-0.5.1.c-forge@jar",
+          "name": "Extended Cogwheels",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 263719,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/extendedgears-2.1.0-1.19.2-0.5.1.c-forge.jar",
+            "MD5": "8d9ea9b7d9ef6d33a5cc75e21ec127ff"
+          }
+        },
+        {
+          "id": "de.cheaterpaul:fallingleaves:1.3.1@jar",
+          "name": "Falling Leaves",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 121907,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/Fallingleaves-1.19.1-1.3.1.jar",
+            "MD5": "80a4606bbeb8165d5eb9f87e63126364"
+          }
+        },
+        {
+          "id": "de.keksuccino:fancymenu:2.14.9@jar",
+          "name": "FancyMenu",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1350173,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/fancymenu_forge_2.14.9_MC_1.19-1.19.2.jar",
+            "MD5": "77d3d3030f5a7a8e85564d510c2b8412"
+          }
+        },
+        {
+          "id": "vectorwing.farmersdelight:farmersdelight:1.19.2-1.2.3@jar",
+          "name": "Farmer's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2754721,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/FarmersDelight-1.19.2-1.2.3.jar",
+            "MD5": "7cda552f6eb7d51e0fd0d01937d311fd"
+          }
+        },
+        {
+          "id": "umpaz.farmersrespite:farmersrespite:1.19-2.0@jar",
+          "name": "Farmer's Respite",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 493349,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/FarmersRespite-1.19-2.0.jar",
+            "MD5": "92871e5a159179e1a264b92394a57bef"
+          }
+        },
+        {
+          "id": "com.farsight:farsight_view:1.19.2-3.6@jar",
+          "name": "Farsight mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 372444,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/farsight-1.19.2-3.6.jar",
+            "MD5": "be2ea4ee5bfbbbd7eddf93d5ac4b135c"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:fastpaintings:1.19-1.1.2@jar",
+          "name": "Fast Paintings",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 147208,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/fastpaintings-1.19-1.1.2.jar",
+            "MD5": "1e25773f27d88633c31acbd8981ec0b3"
+          }
+        },
+        {
+          "id": "malte0811.ferritecore:ferritecore:5.0.3@jar",
+          "name": "Ferrite Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 116824,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/ferritecore-5.0.3-forge.jar",
+            "MD5": "c556facc604bd4fc0824c4524c73b9b9"
+          }
+        },
+        {
+          "id": "com.stal111:forbidden_arcanus:1.19.2-2.1.5@jar",
+          "name": "Forbidden & Arcanus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2412071,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/forbidden_arcanus-1.19.2-2.1.5.jar",
+            "MD5": "5910c2679d9db31c3646b1a5cc1cb460"
+          }
+        },
+        {
+          "id": "com.mrcrayfish:framework:0.6.16@jar",
+          "name": "Framework",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 291544,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/framework-forge-1.19.2-0.6.16.jar",
+            "MD5": "b9d678aada430d35c7193497402ad67b"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftblibrary:1902.4.1-build.236@jar",
+          "name": "FTB Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 603296,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/ftb-library-forge-1902.4.1-build.236.jar",
+            "MD5": "ab990dddbef322a053b9812a44d4439f"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftbquests:1902.5.6-build.304@jar",
+          "name": "FTB Quests",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1098788,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/ftb-quests-forge-1902.5.6-build.304.jar",
+            "MD5": "df9ea1515c46355d38e933268421368a"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftbteams:1902.2.14-build.123@jar",
+          "name": "FTB Teams",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 220052,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/ftb-teams-forge-1902.2.14-build.123.jar",
+            "MD5": "ce64d31414b490c35accc53c1c506c52"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftbxmodcompat:1.2.3@jar",
+          "name": "FTB XMod Compat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 108932,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/ftb-xmod-compat-forge-1.2.3.jar",
+            "MD5": "0132fb5675456e7825817d2e165e64ff"
+          }
+        },
+        {
+          "id": "gardensofthedead:gardens_of_the_dead:2.0.1@jar",
+          "name": "Gardens of the Dead",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 11820558,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/gardens-of-the-dead-forge-2.0.1.jar",
+            "MD5": "0071d6982d5810a6e4ebcdee9c5ce13a"
+          }
+        },
+        {
+          "id": "software.bernie.example:geckolib3:3.1.40@jar",
+          "name": "GeckoLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2938383,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/geckolib-forge-1.19-3.1.40.jar",
+            "MD5": "99b50d68f49918186714abf7746f0249"
+          }
+        },
+        {
+          "id": "generated.forgemod:geophilic:1.19-2.0.0c@jar",
+          "name": "Geophilic",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 466765,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/geophilic-1.19-2.0.0c.jar",
+            "MD5": "4952e38a8fc24dd3348cfb1dbdc9194c"
+          }
+        },
+        {
+          "id": "generated.forgemod:geophilic_reforged:1.2.0@jar",
+          "name": "Geophilic Reforged",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 381424,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/GeophilicReforged-v1.2.0.jar",
+            "MD5": "c02eb4940e6c4716bbddcd49dc672527"
+          }
+        },
+        {
+          "id": "com.mrcrayfish:goblintraders:1.8.0@jar",
+          "name": "Goblin Traders",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 436421,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/goblintraders-1.8.0-1.19.2.jar",
+            "MD5": "e764742261dee9c91db7bf9af814f8d3"
+          }
+        },
+        {
+          "id": "net.orcinus:goodending:1.19.2-1.0.2@jar",
+          "name": "Good Ending",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 11921774,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/Good%20Ending-1.19.2-1.0.2-forge.jar",
+            "MD5": "aa1c6b514846aeb0191ca477f4d561ae"
+          }
+        },
+        {
+          "id": "com.gpumemleakfix:gpumemleakfix:1.19.2-1.6@jar",
+          "name": "Gpu memory leak fix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8002,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/gpumemleakfix-1.19.2-1.6.jar",
+            "MD5": "ba88706c94fafb0864426635548f74b9"
+          }
+        },
+        {
+          "id": "org.zeith:hammerlib:19.3.73@jar",
+          "name": "HammerLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1621793,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/HammerLib-1.19.2-19.3.73.jar",
+            "MD5": "65506c70e690e934bd4aa731f6b6e224"
+          }
+        },
+        {
+          "id": "earth.terrarium:handcrafted:2.0.6@jar",
+          "name": "Handcrafted",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2535461,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/handcrafted-forge-1.19.2-2.0.6.jar",
+            "MD5": "3ce1be672229199442122041267d8ba1"
+          }
+        },
+        {
+          "id": "generated.forgemod:hearths:1.0.0-mc1.19u1.19.3@jar",
+          "name": "Hearths",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 210215,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/hearths-v1.0.0-mc1.19u1.19.3.jar",
+            "MD5": "fb889d265b49a3a1867fc26e0cb052c9"
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:highlighter:1.1.4@jar",
+          "name": "Highlighter",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 26314,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/Highlighter-1.19.1-1.1.4.jar",
+            "MD5": "d3517756318585f9c60c8bafd2dbc13e"
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:iceberg:1.1.4@jar",
+          "name": "Iceberg",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 109565,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/Iceberg-1.19.2-forge-1.1.4.jar",
+            "MD5": "f11f7ab27b5391e838562cb86a8908dc"
+          }
+        },
+        {
+          "id": "com.craisinlord:idas:1.7.6+1.19.2@jar",
+          "name": "Integrated Dungeons and Structures",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7518618,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/idas_forge-1.7.6+1.19.2.jar",
+            "MD5": "68ca54ee2ab270e4d6ea6f9af7aa1a68"
+          }
+        },
+        {
+          "id": "forge.net.raphimc:immediatelyfast:1.2.7+1.19.2@jar",
+          "name": "ImmediatelyFast",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 659234,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/ImmediatelyFast-1.2.7+1.19.2.jar",
+            "MD5": "dfb548f5d14efea6fc243a2876f863f6"
+          }
+        },
+        {
+          "id": "immersive_aircraft:immersive_aircraft:0.6.2+1.19.2@jar",
+          "name": "Immersive Aircraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1938029,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/immersive_aircraft-0.6.2+1.19.2-forge.jar",
+            "MD5": "95b08334b4ce64046eb2be5ff75a297f"
+          }
+        },
+        {
+          "id": "blusunrize.immersiveengineering:immersiveengineering:1.19.2-9.2.3-167@jar",
+          "name": "Immersive Engineering",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10991893,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/ImmersiveEngineering-1.19.2-9.2.3-167.jar",
+            "MD5": "4dcf2c6d2af9ce9e6fa360ae632dafff"
+          }
+        },
+        {
+          "id": "twistedgate.immersiveposts:immersiveposts:4.3.0-8@jar",
+          "name": "Immersive Posts",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 495428,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/ImmersivePosts-1.19.2-4.3.0-8.jar",
+            "MD5": "b6a4a4c2548a0263cbd33ef6aa086460"
+          }
+        },
+        {
+          "id": "org.zeith:improvableskills:19.2.9@jar",
+          "name": "Improvable Skills",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1122373,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/ImprovableSkills-1.19.2-19.2.9.jar",
+            "MD5": "8a4a8910c29c1e576b85438fea69d7c3"
+          }
+        },
+        {
+          "id": "net.stardustlabs:incendium:5.1.6@jar",
+          "name": "Incendium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4357270,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/Incendium_1.19.3_v5.1.6.jar",
+            "MD5": "f1974cebe812f4c366a9d2eaaa3cec1e"
+          }
+        },
+        {
+          "id": "com.craisinlord:integrated_api:1.2.7+1.19.2@jar",
+          "name": "Integrated API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 196448,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/integrated_api_forge-1.2.7+1.19.2.jar",
+            "MD5": "469def88c47e8753bd28449df385958b"
+          }
+        },
+        {
+          "id": "com.craisinlord:integrated_stronghold:1.0.2+1.19.2@jar",
+          "name": "Integrated Stronghold",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5027987,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/integrated_stronghold_forge-1.0.2+1.19.2.jar",
+            "MD5": "6899d167e29dbf589dbb610dfedd180d"
+          }
+        },
+        {
+          "id": "com.sudolev:interiors:0.5.2@jar",
+          "name": "Create: Interiors",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 408630,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/interiors-0.5.2+mc1.19.2-FORGE.jar",
+            "MD5": "ac6870b595f690dfc9abb77476313f3a"
+          }
+        },
+        {
+          "id": "io.redspace.ironsspellbooks:irons_spellbooks:1.19.2-2.0.3@jar",
+          "name": "Iron's Spells 'n Spellbooks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6276577,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/irons_spellbooks-1.19.2-2.0.3.jar",
+            "MD5": "68f3ae67f98b478bc4b165ebaaf27b61"
+          }
+        },
+        {
+          "id": "dev.latvian.mods:itemfilters:1902.2.9-build.51@jar",
+          "name": "Item Filters",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 115504,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/item-filters-forge-1902.2.9-build.51.jar",
+            "MD5": "c1c9004b681fd6ac0527112f62c8e200"
+          }
+        },
+        {
+          "id": "net.thirdlife.iterrpg:iter_rpg:0.4.9@jar",
+          "name": "Iter RPG",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15562975,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/iterpg-0.4.9.jar",
+            "MD5": "a7e2980a07b52d1deaf4990b85312c3f"
+          }
+        },
+        {
+          "id": "snownee.jade:jade:8.9.1@jar",
+          "name": "Jade",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 428540,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/Jade-1.19.1-forge-8.9.1.jar",
+            "MD5": "673ca73a58e460499454d9bcd2f14844"
+          }
+        },
+        {
+          "id": "snownee.jade.addon:jadeaddons:3.6.0@jar",
+          "name": "Jade Addons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 57891,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/JadeAddons-1.19.2-forge-3.6.0.jar",
+            "MD5": "7b628b43292bf02722c90048d84944f1"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:11.6.0.1018@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1090468,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/jei-1.19.2-forge-11.6.0.1018.jar",
+            "MD5": "b470cd69dbce10060db0f51ec90dfb36"
+          }
+        },
+        {
+          "id": "sguest.jeimultiblocks:jeimultiblocks:0.0.3@jar",
+          "name": "Just Enough Immersive Multiblocks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 11782,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/jeimultiblocks-1.19.2-0.0.3.jar",
+            "MD5": "6da832d397dd0ce19757a32a063d0685"
+          }
+        },
+        {
+          "id": "fr.alasdiablo:jerintegration:4.5.0@jar",
+          "name": "JER Integration",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 31632,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/JER-Integration-4.5.0.jar",
+            "MD5": "e3a6f07601dd6795f06d5d62348639c6"
+          }
+        },
+        {
+          "id": "com.mrbysco:justenoughprofessions:2.0.2@jar",
+          "name": "Just Enough Professions (JEP)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 23472,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/JustEnoughProfessions-forge-1.19.2-2.0.2.jar",
+            "MD5": "4368805c076b34cc0d7a7b1a0af1f2a9"
+          }
+        },
+        {
+          "id": "jeresources:jeresources:1.2.3.243@jar",
+          "name": "Just Enough Resources",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 276327,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/JustEnoughResources-1.19.2-1.2.3.243.jar",
+            "MD5": "d427f739ad0d8c6bc9c465e5065d775a"
+          }
+        },
+        {
+          "id": "snownee.kiwi:kiwi:8.3.4@jar",
+          "name": "Kiwi",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 421926,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/Kiwi-1.19.1-forge-8.3.4.jar",
+            "MD5": "1aec14a30574c3c8c08edaa600953972"
+          }
+        },
+        {
+          "id": "net.blay09.mods:kleeslabs:12.3.0@jar",
+          "name": "KleeSlabs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 291018,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/kleeslabs-forge-1.19.2-12.3.0.jar",
+            "MD5": "7f123978e0ba9f8a9fc24954b7378a93"
+          }
+        },
+        {
+          "id": "de.keksuccino:konkrete:1.6.1@jar",
+          "name": "Konkrete",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 628968,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/konkrete_forge_1.6.1_MC_1.19-1.19.2.jar",
+            "MD5": "6171d50320f243ed78eac8bcb57e5382"
+          }
+        },
+        {
+          "id": "generated.forgemod:kotlinforforge:3.12.0-all@jar",
+          "name": "Kotlinforforge",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7365976,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/kotlinforforge-3.12.0-all.jar",
+            "MD5": "9026097ff419bd2d8a10f2e5755d4888"
+          }
+        },
+        {
+          "id": "com.github.l_ender:cataclysm:1.0@jar",
+          "name": "Cataclysm Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 31479243,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/L_Enders_Cataclysm-1.38%20-1.19.2.jar",
+            "MD5": "43d8437b106dd65b7165d15b3e6b1d95"
+          }
+        },
+        {
+          "id": "me.steinborn:lazydfu:0.1.3@jar",
+          "name": "LazyDFU",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14972,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/lazydfu-1.19-1.0.2.jar",
+            "MD5": "e395095b221c320c50105e8d447c6ce0"
+          }
+        },
+        {
+          "id": "fuzs.leavesbegone:leavesbegone:4.0.1@jar",
+          "name": "Leaves Be Gone",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 48549,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/LeavesBeGone-v4.0.1-1.19.2-Forge.jar",
+            "MD5": "93da73e127000a79781afbdcbf79f119"
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:legendarytooltips:1.4.0@jar",
+          "name": "Legendary Tooltips",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 54346,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/LegendaryTooltips-1.19.2-forge-1.4.0.jar",
+            "MD5": "e8c92cce523d1ae79d4e718aa61b2985"
+          }
+        },
+        {
+          "id": "com.ccr4ft3r:lightspeed:1.19.2-1.1.0@jar",
+          "name": "Lightspeed",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 50521,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/lightspeed-1.19.2-1.0.5.jar",
+            "MD5": "13e6f30aab7cf8ee21533ff09f31f541"
+          }
+        },
+        {
+          "id": "io.wispforest:lmft:1.0.2+1.19@jar",
+          "name": "Load My F***ing Tags",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 179873,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/lmft-1.0.2+1.19-forge.jar",
+            "MD5": "5744276f6cbd2b58f82c130e7855ea40"
+          }
+        },
+        {
+          "id": "com.obscuria.lootjournal:loot_journal:2.1@jar",
+          "name": "Loot Journal",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 19312,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/loot_journal-2.1.jar",
+            "MD5": "3375185051f93055ca1610a1eba727f6"
+          }
+        },
+        {
+          "id": "com.lootintegrations:lootintegrations:1.19.2-3.3@jar",
+          "name": "Lootintegrations mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 22427,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/lootintegrations-1.19.2-3.3.jar",
+            "MD5": "b84ff56f0c36f8dcf14713bb97e85683"
+          }
+        },
+        {
+          "id": "noobanidus.mods:lootr:0.4.24.63@jar",
+          "name": "Lootr",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 283053,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/lootr-1.19-0.4.24.64.jar",
+            "MD5": "4ede34737042a7882d4888211abb50c7"
+          }
+        },
+        {
+          "id": "gg.lunapixel.luna.e4mc_integration:luna:1.0.0@jar",
+          "name": "Luna",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 12766686,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/Luna-FORGE-MC1.19.X-1.0.1.jar",
+            "MD5": "88acfeb2b9429d9ea0e5b58e35c7603f"
+          }
+        },
+        {
+          "id": "ca.fxco:memoryleakfix:1.1.2@jar",
+          "name": "Memory Leak Fix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 158689,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/memoryleakfix-forge-1.17+-1.1.2.jar",
+            "MD5": "ed20eb690105062557e29921eccd89a1"
+          }
+        },
+        {
+          "id": "com.memorysettings:memorysettings:1.19.2-5.4@jar",
+          "name": "Memorysettings mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 20490,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/memorysettings-1.19.2-5.4.jar",
+            "MD5": "9a082b0555059f7d175070e65aef924a"
+          }
+        },
+        {
+          "id": "fuzs.mindfuldarkness:mindfuldarkness:4.0.9@jar",
+          "name": "Mindful Darkness",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 100659,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/MindfulDarkness-v4.0.9-1.19.2-Forge.jar",
+            "MD5": "4ee81abf88f7329f2764e1c3c8e1c095"
+          }
+        },
+        {
+          "id": "org.embeddedt.modernfix.forge.init:modernfix:5.9.3+mc1.19.2@jar",
+          "name": "ModernFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 683148,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/modernfix-forge-5.9.3+mc1.19.2.jar",
+            "MD5": "3f9449841093454abeafaaca8b85ddb1"
+          }
+        },
+        {
+          "id": "io.github.mortuusars:monobank:1.1.3@jar",
+          "name": "Monobank",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 382483,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/monobank-1.19.2-1.1.3.jar",
+            "MD5": "2ac6725025fa75b4d51d89126897f776"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:moonlight:1.19.2-2.3.5@jar",
+          "name": "Moonlight Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 868380,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/moonlight-1.19.2-2.3.5-forge.jar",
+            "MD5": "a96b3656cce9e724a4eca562a7736ac1"
+          }
+        },
+        {
+          "id": "com.tom.morewires:more_immersive_wires:1.1.2@jar",
+          "name": "More Immersive Wires",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 523613,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/more-immersive-wires-1.19.2-1.1.2.jar",
+            "MD5": "89ce682a17d5de1a4566ba8c4cbe6c0c"
+          }
+        },
+        {
+          "id": "yalter.mousetweaks:mousetweaks:2.23@jar",
+          "name": "Mouse Tweaks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 75983,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/MouseTweaks-forge-mc1.19-2.23.jar",
+            "MD5": "855222f31f7a2ebfe84cd57480b9e011"
+          }
+        },
+        {
+          "id": "se.mickelus:mutil:5.1.0@jar",
+          "name": "Mutil",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 101782,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/mutil-1.19.2-5.1.0.jar",
+            "MD5": "2f3246609b2824462b28ca69cb2a02ae"
+          }
+        },
+        {
+          "id": "com.chaosthedude:naturescompass:1.19.2-1.10.0-forge@jar",
+          "name": "Nature's Compass",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 210023,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/NaturesCompass-1.19.2-1.10.0-forge.jar",
+            "MD5": "629b8abab8951d46c2ad078f3f12553a"
+          }
+        },
+        {
+          "id": "vazkii.neat:neat:1.19-32@jar",
+          "name": "Neat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 23861,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/Neat-1.19-32.jar",
+            "MD5": "99a105dd7d9ec551544171d721963428"
+          }
+        },
+        {
+          "id": "org.infernalstudios:nebs:1.8.0@jar",
+          "name": "Neko's Enchanted Books",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 294770,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/NekosEnchantedBooks-1.19-1.8.0.jar",
+            "MD5": "3f5415e70935e73de5e2c00d73816751"
+          }
+        },
+        {
+          "id": "umpaz.nethersdelight:nethersdelight:1.19-3.1@jar",
+          "name": "Nether's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 344436,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/NethersDelight-1.19-3.1.jar",
+            "MD5": "505bdfac61f75df19c9acab092f0351d"
+          }
+        },
+        {
+          "id": "fuzs.nightconfigfixes:nightconfigfixes:4.0.7@jar",
+          "name": "Night Config Fixes",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 65655,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/NightConfigFixes-v4.0.7-1.19.2-Forge.jar",
+            "MD5": "ca4c109d25d89e1365faf77d46fdde45"
+          }
+        },
+        {
+          "id": "dev.tr7zw:notenoughanimations:1.6.2@jar",
+          "name": "NotEnoughAnimations Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 413719,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/notenoughanimations-forge-1.6.2-mc1.19.2.jar",
+            "MD5": "5a6d319aaecfff8591006eff3873fb22"
+          }
+        },
+        {
+          "id": "com.obscuria.obscureapi:obscure_api:15@jar",
+          "name": "Obscure API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 964152,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/obscure_api-15.jar",
+            "MD5": "fad9871533c751a9d6afad3180113cf4"
+          }
+        },
+        {
+          "id": "dev.lambdaurora:spruceui:0.1.3+1.19.2@jar",
+          "name": "ObsidianUI",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 243447,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/obsidianui-0.1.3+1.19.2.jar",
+            "MD5": "7b0a3c080fb5fff07aba5828de6a0139"
+          }
+        },
+        {
+          "id": "top.leonx:irisflw:1.19.2-0.2.1@jar",
+          "name": "Oculus Flywheel Compat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 63780,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/oculus-flywheel-compat-1.19.2-0.2.1.jar",
+            "MD5": "7570c9996a2f9a6be2ab61145d111e96"
+          }
+        },
+        {
+          "id": "net.coderbot.iris:oculus:1.6.9@jar",
+          "name": "Oculus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3499284,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/oculus-mc1.19.2-1.6.9.jar",
+            "MD5": "5c62ae78fcc5baba124c9ac7f950597e"
+          }
+        },
+        {
+          "id": "xaero.pac:openpartiesandclaims:0.20.1@jar",
+          "name": "Open Parties and Claims",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1199989,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/open-parties-and-claims-forge-1.19.2-0.20.1.jar",
+            "MD5": "32685a40f053c9308fab200b7f23a8ad"
+          }
+        },
+        {
+          "id": "fuzs.overflowingbars:overflowingbars:4.0.1@jar",
+          "name": "Overflowing Bars",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 69881,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/OverflowingBars-v4.0.1-1.19.2-Forge.jar",
+            "MD5": "752a37b8c2f5e59627f943ae5ff590b5"
+          }
+        },
+        {
+          "id": "net.tonimatasdev.packetfixerforge:packetfixer:1.2.0@jar",
+          "name": "Packet Fixer",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15228,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/PacketFixer-forge-1.2.0-1.19.2.jar",
+            "MD5": "8334a1ee230e2cfe4398216195ddcab9"
+          }
+        },
+        {
+          "id": "subaraki.paintings.mod:paintings:10.2.4.0@jar",
+          "name": "Paintings ++",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 175373,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/Paintings-forge-1.19.2-10.2.4.0.jar",
+            "MD5": "e5e081a8db820938957639e0ce5ce6b9"
+          }
+        },
+        {
+          "id": "vazkii.patchouli:patchouli:1.19.2-77@jar",
+          "name": "Patchouli",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 635370,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/Patchouli-1.19.2-77.jar",
+            "MD5": "5727784bad9e215a74a64107c1e45036"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:paxi:1.19.2-Forge-3.0.1@jar",
+          "name": "Paxi",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 96325,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/Paxi-1.19.2-Forge-3.0.1.jar",
+            "MD5": "c8a2b1f2ae8b2ddb6aef173e8dee6ebd"
+          }
+        },
+        {
+          "id": "com.teamabnormals.personality.core:personality:3.0.2@jar",
+          "name": "Personality",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 292729,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/personality-1.19.2-3.0.2.jar",
+            "MD5": "24892bf1e6a9687d21c0f5730e1e7690"
+          }
+        },
+        {
+          "id": "com.decursioteam:pickableorbs:1.19.2-3.0-rc1@jar",
+          "name": "Pickable Orbs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 57899,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/pickableorbs-1.19.2-3.0-rc1.jar",
+            "MD5": "5cc20a06f62fbe3fb7bd934b96e7fd25"
+          }
+        },
+        {
+          "id": "com.teampotato:piglinsafety:0.0.2@jar",
+          "name": "PiglinSafety",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3743,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/piglinsafety-mc1.17-1.20-v0.0.2.jar",
+            "MD5": "69162f8b2f11a5b0dc11d390e6f541a7"
+          }
+        },
+        {
+          "id": "shadows.placebo:placebo:7.3.4@jar",
+          "name": "Placebo",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 248755,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/Placebo-1.19.2-7.3.4.jar",
+            "MD5": "2f610c86b94a55604a06b7e16d990276"
+          }
+        },
+        {
+          "id": "dev.kosmx.playeranim:playeranimator:1.0.2@jar",
+          "name": "Player Animator",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 181297,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/player-animation-lib-forge-1.0.2.jar",
+            "MD5": "32be10092ee8672a2e3a36a019007a96"
+          }
+        },
+        {
+          "id": "com.illusivesoulworks:polymorph:0.46.5+1.19.2@jar",
+          "name": "Polymorph",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 256075,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/polymorph-forge-0.46.5+1.19.2.jar",
+            "MD5": "9d7668daaee77f75e2c62c6fd599881c"
+          }
+        },
+        {
+          "id": "eu.ha3:presencefootsteps:1.19.2-1.6.4.1@jar",
+          "name": "Presence Footsteps (Forge)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7176267,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/PresenceFootsteps-1.19.2-1.6.4.1-forge.jar",
+            "MD5": "030a78b2a08a5c2c35ffe9d55776b9f1"
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:prism:1.0.2@jar",
+          "name": "Prism",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 51537,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/Prism-1.19.1-1.0.2.jar",
+            "MD5": "2789a66452ba8b58c843ea991799933e"
+          }
+        },
+        {
+          "id": "subaraki.pga.mod:publicguiannouncement:4.3.2@jar",
+          "name": "Public GUI Announcement",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 331948,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/Public%20GUI%20Announcement-forge-1.19.2-4.3.2.jar",
+            "MD5": "531d362c517c447fccae07f1ed066f17"
+          }
+        },
+        {
+          "id": "fuzs.puzzleslib.impl:puzzleslib:4.4.3@jar",
+          "name": "Puzzles Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 395272,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/PuzzlesLib-v4.4.3-1.19.2-Forge.jar",
+            "MD5": "ada0a5030dfcecdfd37f18cc9deca7c6"
+          }
+        },
+        {
+          "id": "net.mcreator:pyrologernfriends:1.6.5.7@jar",
+          "name": "Pyrologer And Friends",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8111314,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/pyrologerandfriends-1.6.5.7-1.19.2.jar",
+            "MD5": "434c00faa2f14ba201cd61f9be941133"
+          }
+        },
+        {
+          "id": "com.mtcleo05:qualitycrops:1.19.2-1.3.2@jar",
+          "name": "Quality Crops",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 352931,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/QualityCrops-1.19.2-1.3.2.jar",
+            "MD5": "473fae0e028ec4b2fe06bf16a7b36f19"
+          }
+        },
+        {
+          "id": "com.mtcleo05:qualitysdelight:1.19.2-1.5.3@jar",
+          "name": "Quality's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 867769,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/QualitysDelight-1.19.2-1.5.3.jar",
+            "MD5": "082eed8aea197febb0e6224336285a8e"
+          }
+        },
+        {
+          "id": "vazkii.quark.base:quark:3.4-418@jar",
+          "name": "Quark",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15024651,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/Quark-3.4-418.jar",
+            "MD5": "3cac1bb0a53b47bd7dec351b6d675de7"
+          }
+        },
+        {
+          "id": "com.mrbysco:raided:0.1.3@jar",
+          "name": "Raided",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 129723,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/Raided-1.19.2-0.1.3.jar",
+            "MD5": "6bc2e39d3188b6b687d9a4320a09e67f"
+          }
+        },
+        {
+          "id": "earth.terrarium:reaper:1.0.4@jar",
+          "name": "Reaper",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 126961,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/Reaper-1.0.4.jar",
+            "MD5": "8813526f1078b79f0b2d1672ba5c88b1"
+          }
+        },
+        {
+          "id": "com.recipeessentials:recipeessentials:1.19.2-3.1@jar",
+          "name": "Recipeessentials mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 44047,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/recipeessentials-1.19.2-3.1.jar",
+            "MD5": "686d00fd8ba24c4312ca84100e0580b3"
+          }
+        },
+        {
+          "id": "com.teampotato:redirector:1.19.2-3.4.0@jar",
+          "name": "Redirector",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 170463,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/redirector-1.19.2-3.4.0-forge.jar",
+            "MD5": "00e01ac1e4f5e96a1cd23912a2b7ced5"
+          }
+        },
+        {
+          "id": "link.infra.indium:reforgium:1.0.12a@jar",
+          "name": "Reforgium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 258866,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/reforgium-1.0.12a.jar",
+            "MD5": "80cb1994e0cff4d27882347692e01d7d"
+          }
+        },
+        {
+          "id": "com.teamresourceful:resourcefulconfig:1.0.20@jar",
+          "name": "Resourcefulconfig",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 133629,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/resourcefulconfig-forge-1.19.2-1.0.20.jar",
+            "MD5": "ad468a8664448a52cc49e52b34208dd0"
+          }
+        },
+        {
+          "id": "com.teamresourceful:resourcefullib:1.1.24@jar",
+          "name": "Resourceful Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 231039,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/resourcefullib-forge-1.19.2-1.1.24.jar",
+            "MD5": "dd9aba7d4744ae995b67980ee814ef13"
+          }
+        },
+        {
+          "id": "fuzs.resourcepackoverrides:resourcepackoverrides:4.0.4@jar",
+          "name": "Resource Pack Overrides",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 85848,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/ResourcePackOverrides-v4.0.4-1.19.2-Forge.jar",
+            "MD5": "f8ad369593af19c120fc69b0c85c71a8"
+          }
+        },
+        {
+          "id": "baguchan.revampedwolf:revampedwolf:1.19.2-4.0.0@jar",
+          "name": "RevampedWolf",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 86061,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/revampedwolf-1.19.2-4.0.0.jar",
+            "MD5": "032cbdeedb1e32cc70d68e48a54b8954"
+          }
+        },
+        {
+          "id": "me.flashyreese.mods.sodiumextra:rubidium_extra:0.4.19+mc1.19.2-build.105@jar",
+          "name": "Rubidium Extra",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 317160,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/rubidium-extra-0.4.19+mc1.19.2-build.105.jar",
+            "MD5": "625cd59e097bd63998d08c418a715fdc"
+          }
+        },
+        {
+          "id": "dev.lambdaurora.lambdynlights:ryoamiclights:0.1.4+1.19.2@jar",
+          "name": "RyoamicLights",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 152624,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/Ryoamiclights-0.1.4+1.19.2.jar",
+            "MD5": "46a20c926e22bbcd6de6fc8cd2fc3dc4"
+          }
+        },
+        {
+          "id": "io.github.mortuusars:salt:1.2.1@jar",
+          "name": "Salt",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 245110,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/salt-1.19.2-1.2.1.jar",
+            "MD5": "fa81479d91f5f76ce024033709be92a0"
+          }
+        },
+        {
+          "id": "sereneseasons.core:sereneseasons:1.19.2-8.1.0.24@jar",
+          "name": "Serene Seasons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 143030,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/SereneSeasons-1.19.2-8.1.0.24.jar",
+            "MD5": "6ccedabcc2286200c57ef208cb1049f2"
+          }
+        },
+        {
+          "id": "com.epherical:serverbrowser:1.0.0@jar",
+          "name": "ServerBrowser",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 60305,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/ServerBrowser-1.19.2-FORGE-1.1.2.jar",
+            "MD5": "02407385995383fa8aab809aabf3dddf"
+          }
+        },
+        {
+          "id": "me.khajiitos:servercountryflags:1.9.2@jar",
+          "name": "Server Country Flags",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 912916,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/servercountryflags-1.9.2-1.19.2-FORGE.jar",
+            "MD5": "9a7f4436654a9573eb300af18f13fc9c"
+          }
+        },
+        {
+          "id": "org.infernalstudios:shieldexp:1.1.6@jar",
+          "name": "Shield Expansion",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 189501,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/ShieldExpansion-1.19.2-1.1.6.jar",
+            "MD5": "ec6f5dd4c32cecd53855e5409a005d41"
+          }
+        },
+        {
+          "id": "net.mcreator.silencesdefensivetower:silence_s_defense_tower:1.0.0@jar",
+          "name": "Silence's Defense Tower",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3193412,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/Silence's%20Defense%20Tower.jar",
+            "MD5": "1e17e81dd7c241fc5107d9e96748272a"
+          }
+        },
+        {
+          "id": "com.sunekaer:sdrp:3.0.4-build.9999+mc1.19.2@jar",
+          "name": "Simple Discord Rich Presence",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 515158,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/SimpleDiscordRichPresence-forge-3.0.5-build.37+mc1.19.2.jar",
+            "MD5": "90345a41bbe1cba9f281f0108529fa60"
+          }
+        },
+        {
+          "id": "com.possible_triangle:sliceanddice:2.3.2@jar",
+          "name": "Create Slice & Dice",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 222195,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/sliceanddice-forge-2.3.2.jar",
+            "MD5": "398186c158dcd4b37a9503775d694d3c"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:smarterfarmers:1.19.2-1.7.1@jar",
+          "name": "Smarter Farmers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 51150,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/smarterfarmers-1.19.2-1.7.1.jar",
+            "MD5": "a7589009f4109d0c864b0a88259ede17"
+          }
+        },
+        {
+          "id": "com.smoothchunk:smoothchunk:1.19.2-3.5@jar",
+          "name": "Smoothchunk mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10917,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/smoothchunk-1.19.2-3.5.jar",
+            "MD5": "b85eec56bd81248d5aabfd55ce777fb1"
+          }
+        },
+        {
+          "id": "snownee.snow:snowrealmagic:6.5.4@jar",
+          "name": "Snow! Real Magic!",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 165816,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/SnowRealMagic-1.19.2-forge-6.5.4.jar",
+            "MD5": "906b6304136c0d9924c295e91f504a84"
+          }
+        },
+        {
+          "id": "bl4ckscor3.mod:snowundertrees:1.3.1@jar",
+          "name": "Snow Under Trees",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 22013,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/snowundertrees-1.19.2-1.3.1.jar",
+            "MD5": "dfd54674852ac11894fda51efc7facd6"
+          }
+        },
+        {
+          "id": "net.p3pp3rf1y:sophisticatedbackpacks:1.19.2-3.18.64.940@jar",
+          "name": "Sophisticated Backpacks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 783387,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/sophisticatedbackpacks-1.19.2-3.18.64.940.jar",
+            "MD5": "48d4ef1fc93b070610c7b491b1148282"
+          }
+        },
+        {
+          "id": "net.p3pp3rf1y:sophisticatedcore:1.19.2-0.5.103.484@jar",
+          "name": "Sophisticated Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1028375,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/sophisticatedcore-1.19.2-0.5.103.484.jar",
+            "MD5": "6007aba1cfe66ea46d90097ed8fcc2c4"
+          }
+        },
+        {
+          "id": "net.p3pp3rf1y:sophisticatedstorage:1.19.2-0.8.48.632@jar",
+          "name": "Sophisticated Storage",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1020025,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/sophisticatedstorage-1.19.2-0.8.48.632.jar",
+            "MD5": "f0a6ba9fdabfed97ceeb7c355b9f9989"
+          }
+        },
+        {
+          "id": "com.sonicether.soundphysics:sound_physics_remastered:1.19.2-1.2.1@jar",
+          "name": "Sound Physics Remastered",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 157287,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/soundphysics-forge-1.19.2-1.2.1.jar",
+            "MD5": "684106382685ac37c1a1b421b7502222"
+          }
+        },
+        {
+          "id": "com.teampotato:sparsestructuresreforged:1.19.2-1.20.1-0.0.3@jar",
+          "name": "SparseStructuresReforged",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6081,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/sparsestructuresreforged-1.19.2-1.20.1-0.0.3.jar",
+            "MD5": "e116c20e0ab39d8481ddf7c9a3177435"
+          }
+        },
+        {
+          "id": "me.codexadrian:spirit:2.2.6@jar",
+          "name": "Spirit",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 658418,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/spirit-forge-1.19.2-2.2.6.jar",
+            "MD5": "d87fe22060bedf474f2f587ced571903"
+          }
+        },
+        {
+          "id": "me.juancarloscp52:spyglass_improvements:1.4+mc1.19.x@jar",
+          "name": "Spyglass Improvements",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 48450,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/spyglass_improvements-1.4+mc1.19+forge.jar",
+            "MD5": "23d77734e76b496d1e26afde767ce9d8"
+          }
+        },
+        {
+          "id": "ca.spottedleaf:starlight:1.1.1+forge.a3aea74@jar",
+          "name": "Starlight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 110720,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/starlight-1.1.1+forge.cf5b10b.jar",
+            "MD5": "56d04ee1894860ae595024e47a495ccb"
+          }
+        },
+        {
+          "id": "com.natamus:starterkit:5.3@jar",
+          "name": "Starter Kit",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 61842,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/starterkit-1.19.2-5.3.jar",
+            "MD5": "062705a68f1c541e89b784a63a116d00"
+          }
+        },
+        {
+          "id": "com.railwayteam:railways:1.5.3+forge-mc1.19.2@jar",
+          "name": "Create: Steam 'n' Rails",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6673556,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/Steam_Rails-1.5.3+forge-mc1.19.2.jar",
+            "MD5": "a97ed27b0fc7ddccd4ef922bd18091fc"
+          }
+        },
+        {
+          "id": "com.legacy.structure_gel.core:structure_gel:2.7.3@jar",
+          "name": "Structure Gel API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 706623,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/structure_gel-1.19.2-2.7.3.jar",
+            "MD5": "18eb7583fc86147c1eb5b88b5d94523a"
+          }
+        },
+        {
+          "id": "com.structureessentials:structureessentials:1.19.2-3.1@jar",
+          "name": "Structure Essentials mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 28430,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/structureessentials-1.19.2-3.1.jar",
+            "MD5": "005c65701fe81c031427096924b11657"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:supplementaries:1.19.2-2.4.11@jar",
+          "name": "Supplementaries",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14946159,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/supplementaries-1.19.2-2.4.11.jar",
+            "MD5": "71cfc938472dc27547e6bb9978d652c7"
+          }
+        },
+        {
+          "id": "com.exidex:swingthroughgrass:1.19.2-1.10.0@jar",
+          "name": "SwingThroughGrass",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 22820,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/swingthroughgrass-1.19.2-1.10.0.jar",
+            "MD5": "d822b909ab3a9728592a6572c4a3145b"
+          }
+        },
+        {
+          "id": "com.izofar:takesapillage:1.0.3@jar",
+          "name": "It Takes A Pillage",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3758527,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/takesapillage-1.0.3-1.19.2.jar",
+            "MD5": "f5a8e6dc8c992a507dac129e1f715a05"
+          }
+        },
+        {
+          "id": "me.codexadrian:tempad:1.4.4@jar",
+          "name": "Tempad",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 148228,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/tempad-forge-1.19.2-1.4.4.jar",
+            "MD5": "9a0e113fe67225cdece7c02c942d0507"
+          }
+        },
+        {
+          "id": "terrablender.core:terrablender:2.0.1.166@jar",
+          "name": "TerraBlender",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 96810,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/TerraBlender-forge-1.19.2-2.0.1.166.jar",
+            "MD5": "88e8f14b1f07309e4b8a605ad96087be"
+          }
+        },
+        {
+          "id": "se.mickelus:tetra:5.5.1@jar",
+          "name": "Tetra",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3539917,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/tetra-1.19.2-5.5.1.jar",
+            "MD5": "dcb5055040423ec8c74b7342f0ef0b58"
+          }
+        },
+        {
+          "id": "net.vinnaxy:tetraextrassro:0.0.9-1.19@jar",
+          "name": "Tetra Extras",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 117561,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/tetraextrassro-0.0.9-1.19.jar",
+            "MD5": "035fcb1f6920edc7a88687d563c02176"
+          }
+        },
+        {
+          "id": "com.tetranomicon:tetranomicon:1.4.2-1.19.2@jar",
+          "name": "Tetranomicon",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 126380,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/tetranomicon-1.4.2-1.19.2.jar",
+            "MD5": "c1041f62632604df8406369fcc05ab10"
+          }
+        },
+        {
+          "id": "me.flashyreese.mods.reeses_sodium_options:textrues_embeddium_options:0.1.1+mc1.19.2@jar",
+          "name": "TexTrue's Embeddium Options",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 132729,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/textrues_embeddium_options-0.1.1+mc1.19.2.jar",
+            "MD5": "0bc5bc5d8c008b731893f31f40e2c1a4"
+          }
+        },
+        {
+          "id": "com.legacy:conjurer_illager:1.1.5@jar",
+          "name": "The Conjurer",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5376784,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/the-conjurer-1.19.2-1.1.5.jar",
+            "MD5": "d1fe8e8d32311b295376417cc42a72ad"
+          }
+        },
+        {
+          "id": "fuzs.thinair:thinair:4.0.1@jar",
+          "name": "Thin Air",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 191879,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/ThinAir-v4.0.1-1.19.2-Forge.jar",
+            "MD5": "674654324fa68fb6d74facc7da8cbae0"
+          }
+        },
+        {
+          "id": "com.tom.storagemod:toms_storage:1.5.9@jar",
+          "name": "Tom's Simple Storage Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 511593,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/toms_storage-1.19-1.5.9.jar",
+            "MD5": "b79011ff3abae3e7694c3d7ddfff5abc"
+          }
+        },
+        {
+          "id": "com.tom.trading:toms_trading_network:0.2.1@jar",
+          "name": "Tom's Trading Network",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 217758,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/toms_trading_network-1.19-0.2.1.jar",
+            "MD5": "37d4cfcfe285a86448e7a5ae0a43e58c"
+          }
+        },
+        {
+          "id": "noobanidus.mods:toofast:0.2.2.4@jar",
+          "name": "Too Fast",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3883,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/toofast-1.19-0.2.2.4.jar",
+            "MD5": "a4c5cc29dbbe4e27dec722678bfb992c"
+          }
+        },
+        {
+          "id": "de.cristelknight999:t_and_t:1.10@jar",
+          "name": "Towns and Towers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2822026,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/Towns-and-Towers-v.1.10-_FORGE-1.19.2_.jar",
+            "MD5": "4a45683cf0b701b720ad10b4c0b2692c"
+          }
+        },
+        {
+          "id": "fuzs.tradingpost:tradingpost:4.2.0@jar",
+          "name": "Trading Post",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 117767,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/TradingPost-v4.2.0-1.19.2-Forge.jar",
+            "MD5": "b1fe8d031cf9ef3ee5a28561306e4447"
+          }
+        },
+        {
+          "id": "com.trikzon:transparent:5.1.2@jar",
+          "name": "Transparent",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 23853,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/transparent-5.1.2+1.19-forge.jar",
+            "MD5": "6f5c526d9217e64c0961305e181d217d"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:travelerstitles:1.19.2-Forge-3.1.2@jar",
+          "name": "Traveler's Titles",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 219061,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/TravelersTitles-1.19.2-Forge-3.1.2.jar",
+            "MD5": "04103abe29cc77972dcb23bc5d75f0a5"
+          }
+        },
+        {
+          "id": "com.ninni:twigs:1.19.2-3.0.1@jar",
+          "name": "Twigs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2743435,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/twigs-forge-1.19.2-3.0.1.jar",
+            "MD5": "aa9b6eb6cee23a3ba29dd4b3fc1bf19a"
+          }
+        },
+        {
+          "id": "net.mcreator:ulterlands:1.2.1@jar",
+          "name": "Ulterlands",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 11312973,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/Ulterlands%20v1.2.1%20_%2019.jar",
+            "MD5": "36a978fd3229b0a57275fd755f75abe5"
+          }
+        },
+        {
+          "id": "net.mcreator:undead_unleashed:1.1.0@jar",
+          "name": "Undead Unleashed",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2073800,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/UndeadUnleashed-1.1.1-1.19.2.jar",
+            "MD5": "52390241e8ebc73568933a22303b4464"
+          }
+        },
+        {
+          "id": "net.mcreator:unusualend:1.4.3@jar",
+          "name": "Unusual End",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4903370,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/UnusualEnd1.19.2_V1.4.3.jar",
+            "MD5": "a212d77d9dce2b96e2723bb0f441e676"
+          }
+        },
+        {
+          "id": "com.teamabnormals.upgrade_aquatic.core:upgrade_aquatic:5.1.0@jar",
+          "name": "Upgrade Aquatic",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4929171,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/upgrade_aquatic-1.19.2-5.1.0.jar",
+            "MD5": "09770338ff9e006e4c9d323ac7bb42aa"
+          }
+        },
+        {
+          "id": "net.valhelsia.valhelsia_core.core:valhelsia_core:1.19.2-0.5.0@jar",
+          "name": "Valhelsia Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 702728,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/valhelsia_core-forge-1.19.2-0.5.0.jar",
+            "MD5": "efd90af3378eadb475fb1d413a72422b"
+          }
+        },
+        {
+          "id": "dev.ghen:villagercomfort:1.19.2-1.0.0@jar",
+          "name": "Villager Comfort",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 30583,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/Villager%20Comfort-1.19.2-1.0.0.jar",
+            "MD5": "c5d93cc6052093993f914790e9fc62fb"
+          }
+        },
+        {
+          "id": "com.natamus:villagernames:7.0@jar",
+          "name": "Villager Names",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 67724,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/villagernames-1.19.2-7.0.jar",
+            "MD5": "ffcd69ca0eb7c04e58b69aecc4071923"
+          }
+        },
+        {
+          "id": "com.finallion:villagersplus:1.2@jar",
+          "name": "Villagers Plus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 281374,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/VillagersPlus_1.2_(FORGE)_for_1.19.2.jar",
+            "MD5": "a77658639352ba54cc32142a704d3ad3"
+          }
+        },
+        {
+          "id": "fuzs.visualworkbench:visualworkbench:4.2.4@jar",
+          "name": "Visual Workbench",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 82918,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/VisualWorkbench-v4.2.4-1.19.2-Forge.jar",
+            "MD5": "d23680b419036187552f8d5a8a6d3312"
+          }
+        },
+        {
+          "id": "earth.terrarium:vitalize:1.1.1@jar",
+          "name": "Vitalize",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 230326,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/vitalize-forge-1.19.2-1.1.1.jar",
+            "MD5": "c4b65b574ab872b309a949d3260cbe40"
+          }
+        },
+        {
+          "id": "io.github.mortuusars:wares:1.2.2@jar",
+          "name": "Wares",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 443603,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/wares-1.19.2-1.2.2.jar",
+            "MD5": "1cb7acd1558cc9c5a2e5fb80315ba7ce"
+          }
+        },
+        {
+          "id": "com.mindfaer:witheringboon:1.7.15@jar",
+          "name": "Withering Boon",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 150996,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/witheringboon-1.7.15.jar",
+            "MD5": "1be77daa176fa4c39b4a459d219fb215"
+          }
+        },
+        {
+          "id": "com.teamabnormals.woodworks.core:woodworks:2.2.2@jar",
+          "name": "Woodworks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 851514,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/woodworks-1.19.2-2.2.2.jar",
+            "MD5": "68bf078a2aee76c18c75fb72d19662c1"
+          }
+        },
+        {
+          "id": "com.talhanation:workers:1.7.5@jar",
+          "name": "Workers Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1158106,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/workers-1.19.2-1.7.5.jar",
+            "MD5": "960dfc08b9b047e29f9e88f0d86f5d7a"
+          }
+        },
+        {
+          "id": "xaero.minimap:xaerominimap:23.8.4@jar",
+          "name": "Xaero's Minimap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1326638,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/Xaeros_Minimap_23.8.4_Forge_1.19.1.jar",
+            "MD5": "b7d40d2a17397121bd2a89881b687ae3"
+          }
+        },
+        {
+          "id": "xaero.map:xaeroworldmap:1.36.0@jar",
+          "name": "Xaero's World Map",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 831720,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/XaerosWorldMap_1.36.0_Forge_1.19.1.jar",
+            "MD5": "6e1c1baebef72cfa70781ab27aaed986"
+          }
+        },
+        {
+          "id": "com.sunekaer:yeetusexperimentus:1.0.1-build.2+mc1.19.1@jar",
+          "name": "Yeetus Experimentus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5869,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/yeetusexperimentus-1.0.1-build.2+mc1.19.1.jar",
+            "MD5": "b22d28d6cf11bb646c25a2ccb73aa08f"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:yungsapi:1.19.2-Forge-3.8.10@jar",
+          "name": "YUNG's API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 293336,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/YungsApi-1.19.2-Forge-3.8.10.jar",
+            "MD5": "d49eb0504b00d99320588c681535dcc3"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterdeserttemples:1.19.2-Forge-2.2.2@jar",
+          "name": "YUNG's Better Desert Temples",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 986299,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/YungsBetterDesertTemples-1.19.2-Forge-2.2.2.jar",
+            "MD5": "94d1f62e9247c0f9ffe4aca5eb2eaad5"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterendisland:1.19.2-Forge-1.0@jar",
+          "name": "YUNG's Better End Island",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 636740,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/YungsBetterEndIsland-1.19.2-Forge-1.0.jar",
+            "MD5": "91f6a4f40c2e354a7bf11a63cd8cd622"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterjungletemples:1.19.2-Forge-1.0.1@jar",
+          "name": "YUNG's Better Jungle Temples",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1268117,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/YungsBetterJungleTemples-1.19.2-Forge-1.0.1.jar",
+            "MD5": "a53333f9c22cc4d9171f5d522c10ef76"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:bettermineshafts:1.19.2-Forge-3.2.1@jar",
+          "name": "YUNG's Better Mineshafts",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 273478,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/YungsBetterMineshafts-1.19.2-Forge-3.2.1.jar",
+            "MD5": "e33f9e1cd9936cd6371f759f15470d9d"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterfortresses:1.19.2-Forge-1.0.6@jar",
+          "name": "YUNG's Better Nether Fortresses",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 820449,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/YungsBetterNetherFortresses-1.19.2-Forge-1.0.6.jar",
+            "MD5": "6bd55703a87dd8493412bca8bbfc459e"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betteroceanmonuments:1.19.2-Forge-2.1.1@jar",
+          "name": "YUNG's Better Ocean Monuments",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1510053,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/YungsBetterOceanMonuments-1.19.2-Forge-2.1.1.jar",
+            "MD5": "4cd617cda5ec5159825b5af4be82bbdc"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:yungsbridges:1.19.2-Forge-3.1.0@jar",
+          "name": "YUNG's Bridges",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 379125,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/forgemods/required/YungsBridges-1.19.2-Forge-3.1.0.jar",
+            "MD5": "80ce6fcaec88b65439319ce0fd429ce2"
+          }
+        },
+        {
+          "id": "Faithless_SodiumContinuity_copat.zip",
+          "name": "Faithless_SodiumContinuity_copat.zip",
+          "type": "File",
+          "artifact": {
+            "size": 335472,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/files/resourcepacks/Faithless_SodiumContinuity_copat.zip",
+            "MD5": "c82213f3d4bb4fffc0db2f3e23e63587",
+            "path": "resourcepacks/Faithless_SodiumContinuity_copat.zip"
+          }
+        },
+        {
+          "id": "Icon Xaero's 1.1 .zip",
+          "name": "Icon Xaero's 1.1 .zip",
+          "type": "File",
+          "artifact": {
+            "size": 3210399,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/files/resourcepacks/Icon%20Xaero's%201.1%20.zip",
+            "MD5": "5f4944d9f95f4b95a01a10d6d7b297ba",
+            "path": "resourcepacks/Icon Xaero's 1.1 .zip"
+          }
+        },
+        {
+          "id": "Iron's_3D_Spell_book_v1.0.2.zip",
+          "name": "Iron's_3D_Spell_book_v1.0.2.zip",
+          "type": "File",
+          "artifact": {
+            "size": 389689,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/files/resourcepacks/Iron's_3D_Spell_book_v1.0.2.zip",
+            "MD5": "c3587b508db1db3c0889f3524f28dcfe",
+            "path": "resourcepacks/Iron's_3D_Spell_book_v1.0.2.zip"
+          }
+        },
+        {
+          "id": "Quark Programmer Art.zip",
+          "name": "Quark Programmer Art.zip",
+          "type": "File",
+          "artifact": {
+            "size": 266434,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/files/resourcepacks/Quark%20Programmer%20Art.zip",
+            "MD5": "372d5ab8040ea8fbf0265bf9163ff206",
+            "path": "resourcepacks/Quark Programmer Art.zip"
+          }
+        },
+        {
+          "id": "SoundFix.zip",
+          "name": "SoundFix.zip",
+          "type": "File",
+          "artifact": {
+            "size": 575764,
+            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.19.2/files/resourcepacks/SoundFix.zip",
+            "MD5": "73483b8b25bd158d90250293a0ed09f9",
+            "path": "resourcepacks/SoundFix.zip"
+          }
+        }
+      ]
+    }
+  ]
+}

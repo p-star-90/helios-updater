@@ -1,0 +1,145 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = top-left
+  x = 138
+  action = movebutton
+  y = 141
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = setbuttonlabel
+  value = Se connecter
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = mid-centered
+  x = -49
+  action = movebutton
+  y = 43
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 106
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 3d3b7412-3dd7-4a50-8e4d-4ab20a07ee3e1705687210438
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = a8b86b9e-8cbb-4ad8-add7-73f3d6b467811705687210443
+  y = 213
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 251
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 87aca71a-d651-400e-aa9c-74061ff97a231705687210443
+  y = 235
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 343
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = d91c3bab-3e38-4ca6-b82f-52509ce7331f1705687210443
+  y = 163
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 103
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 43d63f2c-06b3-490d-87ef-cf9d692921aa1705687210443
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 70ddf26d-387c-4e99-9885-f8c0eaf3f6061705687210443
+  y = 0
+  height = 30
+}
+
+customization {
+  path = resources/logo.png
+  orientation = top-left
+  x = 84
+  width = 310
+  action = addtexture
+  actionid = 0769070a-fc9f-4648-903b-9bb6e279fcfa1705687379818
+  y = 76
+  height = 58
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = joinserver;88.151.197.36:25931%btnaction_splitter_fm%
+  x = 149
+  width = 181
+  action = addbutton
+  actionid = d3dcf37c-e1b2-45d5-bcd9-cf2e893a71971705687590154
+  y = 145
+  label = Se connecter
+  height = 20
+}
+

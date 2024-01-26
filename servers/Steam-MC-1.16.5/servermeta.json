@@ -1,0 +1,16 @@
+{
+  "$schema": "file:///F:/mon%20launcher/Helios%20V2/Nebula_Workspace/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "Steam-MC (Minecraft 1.16.5)",
+    "description": "Steam-MC le serveur Minecraft survie Steampunk",
+    "icon": "https://p-star-90.github.io/helios-updater/SealCircle.png",
+    "address": "88.151.197.36:25931",
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "forge": {
+    "version": "36.2.34"
+  },
+  "untrackedFiles": []
+}

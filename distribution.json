@@ -65,7 +65,7 @@
               "classpath": true,
               "artifact": {
                 "size": 11352644,
-                "MD5": "4cd8e928cde335bc0fba30679bd2302c",
+                "MD5": "25ec1a657fceb1268c8879cfc052ed62",
                 "url": "https://p-star-90.github.io/helios-updater/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-srg.jar"
               },
               "subModules": []
@@ -2548,138 +2548,6 @@
             "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.16.5/files/fancymenu_data/last_world.fmdata",
             "MD5": "46bc77702b0291c52fb71150c1ff70c2",
             "path": "fancymenu_data/last_world.fmdata"
-          }
-        },
-        {
-          "id": "config.txt",
-          "name": "config.txt",
-          "type": "File",
-          "artifact": {
-            "size": 1719,
-            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.16.5/files/fancymenu_setups/.backups/fm_setup_backup_26-1-2024-16-49-9/setup/config/fancymenu/config.txt",
-            "MD5": "054a675067263c1c1025022cdb461e9c",
-            "path": "fancymenu_setups/.backups/fm_setup_backup_26-1-2024-16-49-9/setup/config/fancymenu/config.txt"
-          }
-        },
-        {
-          "id": "customizablemenus.txt",
-          "name": "customizablemenus.txt",
-          "type": "File",
-          "artifact": {
-            "size": 124,
-            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.16.5/files/fancymenu_setups/.backups/fm_setup_backup_26-1-2024-16-49-9/setup/config/fancymenu/customizablemenus.txt",
-            "MD5": "2a8ef3ac1fee27640f7784ef7a5fa580",
-            "path": "fancymenu_setups/.backups/fm_setup_backup_26-1-2024-16-49-9/setup/config/fancymenu/customizablemenus.txt"
-          }
-        },
-        {
-          "id": "de_de.local",
-          "name": "de_de.local",
-          "type": "File",
-          "artifact": {
-            "size": 27376,
-            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.16.5/files/fancymenu_setups/.backups/fm_setup_backup_26-1-2024-16-49-9/setup/config/fancymenu/locals/de_de.local",
-            "MD5": "f43e602abc1b3081611a3ee39efa0bdd",
-            "path": "fancymenu_setups/.backups/fm_setup_backup_26-1-2024-16-49-9/setup/config/fancymenu/locals/de_de.local"
-          }
-        },
-        {
-          "id": "en_us.local",
-          "name": "en_us.local",
-          "type": "File",
-          "artifact": {
-            "size": 113824,
-            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.16.5/files/fancymenu_setups/.backups/fm_setup_backup_26-1-2024-16-49-9/setup/config/fancymenu/locals/en_us.local",
-            "MD5": "320e2ec6fee20689004105d94cd809af",
-            "path": "fancymenu_setups/.backups/fm_setup_backup_26-1-2024-16-49-9/setup/config/fancymenu/locals/en_us.local"
-          }
-        },
-        {
-          "id": "pl_pl.local",
-          "name": "pl_pl.local",
-          "type": "File",
-          "artifact": {
-            "size": 13858,
-            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.16.5/files/fancymenu_setups/.backups/fm_setup_backup_26-1-2024-16-49-9/setup/config/fancymenu/locals/pl_pl.local",
-            "MD5": "22c68afab02c97f21832b904a5e4413c",
-            "path": "fancymenu_setups/.backups/fm_setup_backup_26-1-2024-16-49-9/setup/config/fancymenu/locals/pl_pl.local"
-          }
-        },
-        {
-          "id": "pt_br.local",
-          "name": "pt_br.local",
-          "type": "File",
-          "artifact": {
-            "size": 14283,
-            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.16.5/files/fancymenu_setups/.backups/fm_setup_backup_26-1-2024-16-49-9/setup/config/fancymenu/locals/pt_br.local",
-            "MD5": "9a91316e7c6e61a7a1e0874f34f77482",
-            "path": "fancymenu_setups/.backups/fm_setup_backup_26-1-2024-16-49-9/setup/config/fancymenu/locals/pt_br.local"
-          }
-        },
-        {
-          "id": "ru_ru.local",
-          "name": "ru_ru.local",
-          "type": "File",
-          "artifact": {
-            "size": 155574,
-            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.16.5/files/fancymenu_setups/.backups/fm_setup_backup_26-1-2024-16-49-9/setup/config/fancymenu/locals/ru_ru.local",
-            "MD5": "06d4d09969aa81e24ad92ab8d00b178c",
-            "path": "fancymenu_setups/.backups/fm_setup_backup_26-1-2024-16-49-9/setup/config/fancymenu/locals/ru_ru.local"
-          }
-        },
-        {
-          "id": "uk_ua.local",
-          "name": "uk_ua.local",
-          "type": "File",
-          "artifact": {
-            "size": 147984,
-            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.16.5/files/fancymenu_setups/.backups/fm_setup_backup_26-1-2024-16-49-9/setup/config/fancymenu/locals/uk_ua.local",
-            "MD5": "617020e85943f6f8e44662d128945f46",
-            "path": "fancymenu_setups/.backups/fm_setup_backup_26-1-2024-16-49-9/setup/config/fancymenu/locals/uk_ua.local"
-          }
-        },
-        {
-          "id": "zh_cn.local",
-          "name": "zh_cn.local",
-          "type": "File",
-          "artifact": {
-            "size": 52106,
-            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.16.5/files/fancymenu_setups/.backups/fm_setup_backup_26-1-2024-16-49-9/setup/config/fancymenu/locals/zh_cn.local",
-            "MD5": "20a74fbf1560def5e5528b78fb30fbfe",
-            "path": "fancymenu_setups/.backups/fm_setup_backup_26-1-2024-16-49-9/setup/config/fancymenu/locals/zh_cn.local"
-          }
-        },
-        {
-          "id": "menu_identifiers.db",
-          "name": "menu_identifiers.db",
-          "type": "File",
-          "artifact": {
-            "size": 10497,
-            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.16.5/files/fancymenu_setups/.backups/fm_setup_backup_26-1-2024-16-49-9/setup/config/fancymenu/menu_identifiers.db",
-            "MD5": "7ea7268db5d58f0ed6b4ffe8bec943b9",
-            "path": "fancymenu_setups/.backups/fm_setup_backup_26-1-2024-16-49-9/setup/config/fancymenu/menu_identifiers.db"
-          }
-        },
-        {
-          "id": "user_variables.db",
-          "name": "user_variables.db",
-          "type": "File",
-          "artifact": {
-            "size": 40,
-            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.16.5/files/fancymenu_setups/.backups/fm_setup_backup_26-1-2024-16-49-9/setup/config/fancymenu/user_variables.db",
-            "MD5": "eec0f310caf96daa823c26b23cdc031a",
-            "path": "fancymenu_setups/.backups/fm_setup_backup_26-1-2024-16-49-9/setup/config/fancymenu/user_variables.db"
-          }
-        },
-        {
-          "id": "setup.properties",
-          "name": "setup.properties",
-          "type": "File",
-          "artifact": {
-            "size": 136,
-            "url": "https://p-star-90.github.io/helios-updater/servers/Steam-MC-1.16.5/files/fancymenu_setups/.backups/fm_setup_backup_26-1-2024-16-49-9/setup.properties",
-            "MD5": "c2b18e278770ac4271a1af9d662cb2a4",
-            "path": "fancymenu_setups/.backups/fm_setup_backup_26-1-2024-16-49-9/setup.properties"
           }
         },
         {
